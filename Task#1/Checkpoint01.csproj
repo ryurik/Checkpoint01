@@ -41,11 +41,21 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Classes\CandyItem.cs" />
+    <Compile Include="Classes\XmasGift.cs" />
+    <Compile Include="Interfaces\ICandy.cs" />
+    <Compile Include="Types\CandyTypes.cs" />
+    <Compile Include="Types\FruitAndBerriesTypes.cs" />
+    <Compile Include="Interfaces\IFruitAndBerries.cs" />
+    <Compile Include="Interfaces\IFlour.cs" />
+    <Compile Include="Interfaces\ISugary.cs" />
+    <Compile Include="Interfaces\ISweets.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="ClassDiagram1.cd" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

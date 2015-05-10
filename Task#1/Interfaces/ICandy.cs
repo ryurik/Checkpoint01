@@ -3,16 +3,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Checkpoint01.Interfaces;
 using Checkpoint01.Types;
 
-namespace Checkpoint01
+namespace Checkpoint01.Interfaces
 {
-    class Program
-
+    interface ICandy : ISugary, IFlour
     {
-        static void Main(string[] args)
-        {
-        }
+        CandyTypes CandyType { get; }
     }
 }
