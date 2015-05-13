@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{88D3AF86-59B5-4A85-9241-8BA79B1D75A2}</ProjectGuid>
+    <ProjectGuid>{0CDB6EFE-DC6A-41C5-97E1-C925234B2248}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Checkpoint01</RootNamespace>
-    <AssemblyName>Checkpoint01</AssemblyName>
+    <RootNamespace>Lesson09</RootNamespace>
+    <AssemblyName>Lesson09</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -41,24 +41,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Classes\Candy.cs" />
-    <Compile Include="Classes\CandyComparerBySugar.cs" />
-    <Compile Include="Classes\CandySet.cs" />
-    <Compile Include="Classes\XmasGift.cs" />
-    <Compile Include="Interfaces\ICandy.cs" />
-    <Compile Include="Types\CandyTypes.cs" />
-    <Compile Include="Types\FruitAndBerriesTypes.cs" />
-    <Compile Include="Interfaces\IFruitAndBerries.cs" />
-    <Compile Include="Interfaces\IFlour.cs" />
-    <Compile Include="Interfaces\ISugary.cs" />
-    <Compile Include="Interfaces\ISweets.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Classes\XmasGiftBuilder.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-    <None Include="ClassDiagram1.cd" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

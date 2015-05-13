@@ -7,8 +7,9 @@ using Checkpoint01.Types;
 
 namespace Checkpoint01.Interfaces
 {
-    interface ICandy : ISugary, IFlour
+    public interface ICandy : ISugary, IFlour
     {
         CandyTypes CandyType { get; }
+        DateTime ExpirationDate { get; }
     }
 }

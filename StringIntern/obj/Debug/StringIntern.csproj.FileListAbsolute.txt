@@ -1,0 +1,6 @@
+C:\RYurik\Projects\.Net1-Epam-\Checkpoint01\StringIntern\bin\Debug\StringIntern.exe.config
+C:\RYurik\Projects\.Net1-Epam-\Checkpoint01\StringIntern\bin\Debug\StringIntern.exe
+C:\RYurik\Projects\.Net1-Epam-\Checkpoint01\StringIntern\bin\Debug\StringIntern.pdb
+C:\RYurik\Projects\.Net1-Epam-\Checkpoint01\StringIntern\obj\Debug\StringIntern.csprojResolveAssemblyReference.cache
+C:\RYurik\Projects\.Net1-Epam-\Checkpoint01\StringIntern\obj\Debug\StringIntern.exe
+C:\RYurik\Projects\.Net1-Epam-\Checkpoint01\StringIntern\obj\Debug\StringIntern.pdb

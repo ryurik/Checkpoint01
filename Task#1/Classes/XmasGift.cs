@@ -3,56 +3,62 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Checkpoint01.Interfaces;
 
 namespace Checkpoint01.Classes
 {
-    public class XmasGift : ICollection<CandyItem>
+    public class XmasGift : ICollection<CandySet>
     {
-        private ICollection<IMediaItem> mediaItems = new List<IMediaItem>();
+        private readonly ICollection<CandySet> _items = new List<CandySet>();
 
-        public void Add(CandyItem item)
+        #region ICollection<ICandy>
+
+        public void Add(CandySet item)
         {
-            throw new NotImplementedException();
+            _items.Add(item);
         }
 
         public void Clear()
         {
-            throw new NotImplementedException();
+            _items.Clear();
         }
 
-        public bool Contains(CandyItem item)
+        public bool Contains(CandySet item)
         {
-            throw new NotImplementedException();
+            return _items.Contains(item);
         }
 
-        public void CopyTo(CandyItem[] array, int arrayIndex)
+        public void CopyTo(CandySet[] array, int arrayIndex)
         {
-            throw new NotImplementedException();
+            _items.CopyTo(array, arrayIndex);
         }
 
         public int Count
         {
-            get { throw new NotImplementedException(); }
+            get { return _items.Count; }
         }
 
         public bool IsReadOnly
         {
-            get { throw new NotImplementedException(); }
+            get { return _items.IsReadOnly; }
         }
 
-        public bool Remove(CandyItem item)
+        public bool Remove(CandySet item)
         {
-            throw new NotImplementedException();
+            return _items.Remove(item);
         }
 
-        public IEnumerator<CandyItem> GetEnumerator()
+        public IEnumerator<CandySet> GetEnumerator()
         {
-            throw new NotImplementedException();
+            return _items.GetEnumerator();
         }
 
         System.Collections.IEnumerator System.Collections.IEnumerable.GetEnumerator()
         {
-            throw new NotImplementedException();
+            return this.GetEnumerator();
         }
+        #endregion
+
+
     }
 }
