@@ -1,3 +1,7 @@
 C:\RYurik\Projects\.Net1-Epam-\Checkpoint01\Checkpoint01\bin\Debug\Checkpoint01.exe.config
 C:\RYurik\Projects\.Net1-Epam-\Checkpoint01\Task#1\bin\Debug\Checkpoint01.exe.config
 C:\RYurik\Projects\.Net1-Epam-\Checkpoint01\Task#1\obj\Debug\Checkpoint01.csprojResolveAssemblyReference.cache
+C:\RYurik\Projects\.Net1-Epam-\Checkpoint01\Task#1\bin\Debug\Checkpoint01.exe
+C:\RYurik\Projects\.Net1-Epam-\Checkpoint01\Task#1\bin\Debug\Checkpoint01.pdb
+C:\RYurik\Projects\.Net1-Epam-\Checkpoint01\Task#1\obj\Debug\Checkpoint01.exe
+C:\RYurik\Projects\.Net1-Epam-\Checkpoint01\Task#1\obj\Debug\Checkpoint01.pdb

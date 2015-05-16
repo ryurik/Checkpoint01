@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1">
   <Class Name="Checkpoint01.Classes.Candy" Collapsed="true" BaseTypeListCollapsed="true">
-    <Position X="11.5" Y="1" Width="1.5" />
+    <Position X="7" Y="7" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAIAAAAAgAAAAAAAAQCAAAAAQAAAAAAABAAA=</HashCode>
       <FileName>Classes\Candy.cs</FileName>
@@ -9,72 +9,87 @@
     <Lollipop Position="0.2" Collapsed="true" />
   </Class>
   <Class Name="Checkpoint01.Classes.XmasGift" Collapsed="true" BaseTypeListCollapsed="true">
-    <Position X="11.5" Y="2" Width="1.5" />
+    <Position X="14" Y="2" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>ACIAAEAAAAAAABAQAAAABAQAAAAAAAAAAAAAAABQIAA=</HashCode>
+      <HashCode>ACIAAABAAAAAABAQAAAQBAQAABAAAAAAAAAAAABQIAA=</HashCode>
       <FileName>Classes\XmasGift.cs</FileName>
     </TypeIdentifier>
     <Lollipop Position="0.2" Collapsed="true" />
   </Class>
   <Class Name="Checkpoint01.Classes.XmasGiftBuilder" Collapsed="true">
-    <Position X="13.25" Y="2" Width="1.5" />
+    <Position X="15.75" Y="2" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Classes\XmasGiftBuilder.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="Checkpoint01.Classes.CandyComparerBySugar" Collapsed="true" BaseTypeListCollapsed="true">
-    <Position X="13.25" Y="1" Width="1.5" />
+  <Class Name="Checkpoint01.Classes.CandyComparerByFoodValue" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="14" Y="1" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAA=</HashCode>
-      <FileName>Classes\CandyComparerBySugar.cs</FileName>
+      <FileName>Classes\CandyComparers.cs</FileName>
     </TypeIdentifier>
-    <Lollipop Position="0.2" />
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Checkpoint01.Classes.CandySet" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="15.75" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACIAAAAAAIAAABAwAABABAQAQCAAAAAAAAAABABRIAA=</HashCode>
+      <FileName>Classes\CandySet.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Checkpoint01.Classes.CandyForSet" Collapsed="true">
+    <Position X="7" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\Candy.cs</FileName>
+    </TypeIdentifier>
   </Class>
   <Interface Name="Checkpoint01.Interfaces.ISweets">
-    <Position X="7" Y="1" Width="1.5" />
+    <Position X="9.5" Y="1" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAABAAA=</HashCode>
       <FileName>Interfaces\ISweets.cs</FileName>
     </TypeIdentifier>
   </Interface>
   <Interface Name="Checkpoint01.Interfaces.ISugary">
-    <Position X="5.75" Y="3" Width="1.5" />
+    <Position X="8.25" Y="3" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Interfaces\ISugary.cs</FileName>
     </TypeIdentifier>
   </Interface>
   <Interface Name="Checkpoint01.Interfaces.IFlour">
-    <Position X="8" Y="3" Width="1.5" />
+    <Position X="10.5" Y="3" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Interfaces\IFlour.cs</FileName>
     </TypeIdentifier>
   </Interface>
   <Interface Name="Checkpoint01.Interfaces.IFruitAndBerries">
-    <Position X="5.75" Y="5" Width="1.5" />
+    <Position X="8.25" Y="5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Interfaces\IFruitAndBerries.cs</FileName>
     </TypeIdentifier>
   </Interface>
   <Interface Name="Checkpoint01.Interfaces.ICandy">
-    <Position X="9" Y="5" Width="1.5" />
+    <Position X="11.5" Y="5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAQAAAAAAAAAAA=</HashCode>
       <FileName>Interfaces\ICandy.cs</FileName>
     </TypeIdentifier>
   </Interface>
   <Enum Name="Checkpoint01.Types.FruitAndBerriesTypes" Collapsed="true">
-    <Position X="13.25" Y="3.25" Width="1.5" />
+    <Position X="15.75" Y="3.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAIACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Types\FruitAndBerriesTypes.cs</FileName>
     </TypeIdentifier>
   </Enum>
   <Enum Name="Checkpoint01.Types.CandyTypes" Collapsed="true">
-    <Position X="11.5" Y="3.25" Width="1.5" />
+    <Position X="14" Y="3.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>QAAAAAAAAAAAAgAACAACAAAAAAAAAAAAAAAAAAABAQA=</HashCode>
       <FileName>Types\CandyTypes.cs</FileName>

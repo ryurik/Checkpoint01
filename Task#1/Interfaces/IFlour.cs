@@ -2,6 +2,6 @@
 {
     public interface IFlour :ISweets // Мучные изделия
     {
-        double Flour { get; }
+        double Flour { get; } // мукА..углеводы
     }
 }
