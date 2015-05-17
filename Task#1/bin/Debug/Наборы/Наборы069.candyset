@@ -2,15 +2,27 @@
 <ArrayOfCandyForSet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <CandyForSet>
     <Candy>
-      <CandyName>Шоколадный крем</CandyName>
-      <Sugar>20.19813466826367</Sugar>
-      <FoodValue>654.52163417568511</FoodValue>
-      <Weight>16</Weight>
+      <CandyName>Вечерний звон</CandyName>
+      <Sugar>93.172002673694863</Sugar>
+      <FoodValue>791.46536802475589</FoodValue>
+      <Weight>7</Weight>
       <Flour>0</Flour>
-      <CandyType>SingleLayer</CandyType>
-      <ExpirationDate>2017-08-01T00:00:00</ExpirationDate>
+      <CandyType>OfFruitPreservedInAlcohol</CandyType>
+      <ExpirationDate>2019-03-01T00:00:00</ExpirationDate>
     </Candy>
-    <Amount>2</Amount>
+    <Amount>10</Amount>
+  </CandyForSet>
+  <CandyForSet>
+    <Candy>
+      <CandyName>Южные орехи</CandyName>
+      <Sugar>31.044844692128169</Sugar>
+      <FoodValue>426.80773065742466</FoodValue>
+      <Weight>12</Weight>
+      <Flour>0</Flour>
+      <CandyType>OfFruitPreservedInAlcohol</CandyType>
+      <ExpirationDate>2019-02-01T00:00:00</ExpirationDate>
+    </Candy>
+    <Amount>1</Amount>
   </CandyForSet>
   <CandyForSet>
     <Candy>
@@ -22,7 +34,7 @@
       <CandyType>OfFruitPreservedInAlcohol</CandyType>
       <ExpirationDate>2019-02-01T00:00:00</ExpirationDate>
     </Candy>
-    <Amount>3</Amount>
+    <Amount>1</Amount>
   </CandyForSet>
   <CandyForSet>
     <Candy>
@@ -33,30 +45,6 @@
       <Flour>0</Flour>
       <CandyType>OfFruitPreservedInAlcohol</CandyType>
       <ExpirationDate>2016-01-01T00:00:00</ExpirationDate>
-    </Candy>
-    <Amount>1</Amount>
-  </CandyForSet>
-  <CandyForSet>
-    <Candy>
-      <CandyName>Гулливер</CandyName>
-      <Sugar>43.39693297790221</Sugar>
-      <FoodValue>16.605143908693059</FoodValue>
-      <Weight>14</Weight>
-      <Flour>0</Flour>
-      <CandyType>Interbeddedwaffles</CandyType>
-      <ExpirationDate>2016-11-01T00:00:00</ExpirationDate>
-    </Candy>
-    <Amount>1</Amount>
-  </CandyForSet>
-  <CandyForSet>
-    <Candy>
-      <CandyName>Цитрон</CandyName>
-      <Sugar>31.044844692128169</Sugar>
-      <FoodValue>426.80773065742466</FoodValue>
-      <Weight>12</Weight>
-      <Flour>0</Flour>
-      <CandyType>OfFruitPreservedInAlcohol</CandyType>
-      <ExpirationDate>2019-02-01T00:00:00</ExpirationDate>
     </Candy>
     <Amount>1</Amount>
   </CandyForSet>

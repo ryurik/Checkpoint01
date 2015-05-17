@@ -2,19 +2,7 @@
 <ArrayOfCandyForSet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <CandyForSet>
     <Candy>
-      <CandyName>Гулливер</CandyName>
-      <Sugar>43.39693297790221</Sugar>
-      <FoodValue>16.605143908693059</FoodValue>
-      <Weight>14</Weight>
-      <Flour>0</Flour>
-      <CandyType>Interbeddedwaffles</CandyType>
-      <ExpirationDate>2016-11-01T00:00:00</ExpirationDate>
-    </Candy>
-    <Amount>4</Amount>
-  </CandyForSet>
-  <CandyForSet>
-    <Candy>
-      <CandyName>Буревестник</CandyName>
+      <CandyName>Вихрь</CandyName>
       <Sugar>20.19813466826367</Sugar>
       <FoodValue>654.52163417568511</FoodValue>
       <Weight>16</Weight>
@@ -22,29 +10,41 @@
       <CandyType>SingleLayer</CandyType>
       <ExpirationDate>2017-08-01T00:00:00</ExpirationDate>
     </Candy>
-    <Amount>1</Amount>
+    <Amount>2</Amount>
   </CandyForSet>
   <CandyForSet>
     <Candy>
-      <CandyName>Петушок – золотой гребешок</CandyName>
-      <Sugar>68.317884052320338</Sugar>
-      <FoodValue>44.229868354382859</FoodValue>
-      <Weight>15</Weight>
+      <CandyName>Ромашка</CandyName>
+      <Sugar>31.044844692128169</Sugar>
+      <FoodValue>426.80773065742466</FoodValue>
+      <Weight>12</Weight>
       <Flour>0</Flour>
-      <CandyType>Multilayer</CandyType>
-      <ExpirationDate>2019-01-01T00:00:00</ExpirationDate>
+      <CandyType>OfFruitPreservedInAlcohol</CandyType>
+      <ExpirationDate>2019-02-01T00:00:00</ExpirationDate>
     </Candy>
-    <Amount>1</Amount>
+    <Amount>2</Amount>
   </CandyForSet>
   <CandyForSet>
     <Candy>
-      <CandyName>Балтика</CandyName>
-      <Sugar>33.586105300852147</Sugar>
-      <FoodValue>841.937512085744</FoodValue>
-      <Weight>5</Weight>
+      <CandyName>Красная</CandyName>
+      <Sugar>1.5367683030370476</Sugar>
+      <FoodValue>22.282147324775412</FoodValue>
+      <Weight>12</Weight>
       <Flour>0</Flour>
-      <CandyType>SingleLayer</CandyType>
-      <ExpirationDate>2016-06-01T00:00:00</ExpirationDate>
+      <CandyType>OfFruitPreservedInAlcohol</CandyType>
+      <ExpirationDate>2017-02-01T00:00:00</ExpirationDate>
+    </Candy>
+    <Amount>2</Amount>
+  </CandyForSet>
+  <CandyForSet>
+    <Candy>
+      <CandyName>Мишка на Севере</CandyName>
+      <Sugar>55.676819782553622</Sugar>
+      <FoodValue>861.95658513435933</FoodValue>
+      <Weight>9</Weight>
+      <Flour>63.747876213746089</Flour>
+      <CandyType>Interbeddedwaffles</CandyType>
+      <ExpirationDate>2016-11-01T00:00:00</ExpirationDate>
     </Candy>
     <Amount>1</Amount>
   </CandyForSet>
@@ -57,6 +57,18 @@
       <Flour>0</Flour>
       <CandyType>Interbeddedwaffles</CandyType>
       <ExpirationDate>2019-06-01T00:00:00</ExpirationDate>
+    </Candy>
+    <Amount>1</Amount>
+  </CandyForSet>
+  <CandyForSet>
+    <Candy>
+      <CandyName>Кара-Кум</CandyName>
+      <Sugar>64.6162680651137</Sugar>
+      <FoodValue>884.07171838175122</FoodValue>
+      <Weight>5</Weight>
+      <Flour>0</Flour>
+      <CandyType>OfFruitPreservedInAlcohol</CandyType>
+      <ExpirationDate>2016-01-01T00:00:00</ExpirationDate>
     </Candy>
     <Amount>1</Amount>
   </CandyForSet>

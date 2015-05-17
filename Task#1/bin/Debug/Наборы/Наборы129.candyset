@@ -2,25 +2,61 @@
 <ArrayOfCandyForSet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <CandyForSet>
     <Candy>
-      <CandyName>Пилот</CandyName>
-      <Sugar>31.044844692128169</Sugar>
-      <FoodValue>426.80773065742466</FoodValue>
+      <CandyName>Красная</CandyName>
+      <Sugar>1.5367683030370476</Sugar>
+      <FoodValue>22.282147324775412</FoodValue>
       <Weight>12</Weight>
       <Flour>0</Flour>
       <CandyType>OfFruitPreservedInAlcohol</CandyType>
-      <ExpirationDate>2019-02-01T00:00:00</ExpirationDate>
+      <ExpirationDate>2017-02-01T00:00:00</ExpirationDate>
     </Candy>
-    <Amount>7</Amount>
+    <Amount>1</Amount>
   </CandyForSet>
   <CandyForSet>
     <Candy>
-      <CandyName>Цитрон</CandyName>
-      <Sugar>31.044844692128169</Sugar>
-      <FoodValue>426.80773065742466</FoodValue>
-      <Weight>12</Weight>
+      <CandyName>Кара-Кум</CandyName>
+      <Sugar>64.6162680651137</Sugar>
+      <FoodValue>884.07171838175122</FoodValue>
+      <Weight>5</Weight>
       <Flour>0</Flour>
       <CandyType>OfFruitPreservedInAlcohol</CandyType>
-      <ExpirationDate>2019-02-01T00:00:00</ExpirationDate>
+      <ExpirationDate>2016-01-01T00:00:00</ExpirationDate>
+    </Candy>
+    <Amount>1</Amount>
+  </CandyForSet>
+  <CandyForSet>
+    <Candy>
+      <CandyName>Шоколадный крем</CandyName>
+      <Sugar>20.19813466826367</Sugar>
+      <FoodValue>654.52163417568511</FoodValue>
+      <Weight>16</Weight>
+      <Flour>0</Flour>
+      <CandyType>SingleLayer</CandyType>
+      <ExpirationDate>2017-08-01T00:00:00</ExpirationDate>
+    </Candy>
+    <Amount>2</Amount>
+  </CandyForSet>
+  <CandyForSet>
+    <Candy>
+      <CandyName>Цитрусовые</CandyName>
+      <Sugar>29.281335384250305</Sugar>
+      <FoodValue>650.57956690461344</FoodValue>
+      <Weight>15</Weight>
+      <Flour>0</Flour>
+      <CandyType>Multilayer</CandyType>
+      <ExpirationDate>2018-04-01T00:00:00</ExpirationDate>
+    </Candy>
+    <Amount>2</Amount>
+  </CandyForSet>
+  <CandyForSet>
+    <Candy>
+      <CandyName>Белочка</CandyName>
+      <Sugar>34.049329643160725</Sugar>
+      <FoodValue>848.50630622753226</FoodValue>
+      <Weight>18</Weight>
+      <Flour>0</Flour>
+      <CandyType>SingleLayer</CandyType>
+      <ExpirationDate>2015-03-01T00:00:00</ExpirationDate>
     </Candy>
     <Amount>1</Amount>
   </CandyForSet>

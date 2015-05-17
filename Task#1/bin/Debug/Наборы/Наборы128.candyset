@@ -2,7 +2,19 @@
 <ArrayOfCandyForSet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <CandyForSet>
     <Candy>
-      <CandyName>Цитрон</CandyName>
+      <CandyName>Басни Крылова</CandyName>
+      <Sugar>29.281335384250305</Sugar>
+      <FoodValue>650.57956690461344</FoodValue>
+      <Weight>15</Weight>
+      <Flour>0</Flour>
+      <CandyType>Multilayer</CandyType>
+      <ExpirationDate>2018-04-01T00:00:00</ExpirationDate>
+    </Candy>
+    <Amount>1</Amount>
+  </CandyForSet>
+  <CandyForSet>
+    <Candy>
+      <CandyName>Ромашка</CandyName>
       <Sugar>31.044844692128169</Sugar>
       <FoodValue>426.80773065742466</FoodValue>
       <Weight>12</Weight>
@@ -10,11 +22,11 @@
       <CandyType>OfFruitPreservedInAlcohol</CandyType>
       <ExpirationDate>2019-02-01T00:00:00</ExpirationDate>
     </Candy>
-    <Amount>6</Amount>
+    <Amount>5</Amount>
   </CandyForSet>
   <CandyForSet>
     <Candy>
-      <CandyName>Клубничные</CandyName>
+      <CandyName>Шоколадный крем</CandyName>
       <Sugar>20.19813466826367</Sugar>
       <FoodValue>654.52163417568511</FoodValue>
       <Weight>16</Weight>
@@ -26,13 +38,13 @@
   </CandyForSet>
   <CandyForSet>
     <Candy>
-      <CandyName>Мишка косолапый</CandyName>
-      <Sugar>41.650131783285239</Sugar>
-      <FoodValue>60.474286349711143</FoodValue>
-      <Weight>11</Weight>
+      <CandyName>Балтика</CandyName>
+      <Sugar>33.586105300852147</Sugar>
+      <FoodValue>841.937512085744</FoodValue>
+      <Weight>5</Weight>
       <Flour>0</Flour>
-      <CandyType>OfFruitPreservedInAlcohol</CandyType>
-      <ExpirationDate>2018-05-01T00:00:00</ExpirationDate>
+      <CandyType>SingleLayer</CandyType>
+      <ExpirationDate>2016-06-01T00:00:00</ExpirationDate>
     </Candy>
     <Amount>1</Amount>
   </CandyForSet>

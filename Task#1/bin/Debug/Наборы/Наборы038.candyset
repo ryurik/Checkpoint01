@@ -2,27 +2,15 @@
 <ArrayOfCandyForSet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <CandyForSet>
     <Candy>
-      <CandyName>Шоколадный крем</CandyName>
-      <Sugar>20.19813466826367</Sugar>
-      <FoodValue>654.52163417568511</FoodValue>
-      <Weight>16</Weight>
+      <CandyName>Цитрон</CandyName>
+      <Sugar>31.044844692128169</Sugar>
+      <FoodValue>426.80773065742466</FoodValue>
+      <Weight>12</Weight>
       <Flour>0</Flour>
-      <CandyType>SingleLayer</CandyType>
-      <ExpirationDate>2017-08-01T00:00:00</ExpirationDate>
+      <CandyType>OfFruitPreservedInAlcohol</CandyType>
+      <ExpirationDate>2019-02-01T00:00:00</ExpirationDate>
     </Candy>
-    <Amount>4</Amount>
-  </CandyForSet>
-  <CandyForSet>
-    <Candy>
-      <CandyName>Белочка</CandyName>
-      <Sugar>34.049329643160725</Sugar>
-      <FoodValue>848.50630622753226</FoodValue>
-      <Weight>18</Weight>
-      <Flour>0</Flour>
-      <CandyType>SingleLayer</CandyType>
-      <ExpirationDate>2015-03-01T00:00:00</ExpirationDate>
-    </Candy>
-    <Amount>1</Amount>
+    <Amount>5</Amount>
   </CandyForSet>
   <CandyForSet>
     <Candy>
@@ -33,6 +21,42 @@
       <Flour>0</Flour>
       <CandyType>Multilayer</CandyType>
       <ExpirationDate>2019-01-01T00:00:00</ExpirationDate>
+    </Candy>
+    <Amount>1</Amount>
+  </CandyForSet>
+  <CandyForSet>
+    <Candy>
+      <CandyName>Гулливер</CandyName>
+      <Sugar>43.39693297790221</Sugar>
+      <FoodValue>16.605143908693059</FoodValue>
+      <Weight>14</Weight>
+      <Flour>0</Flour>
+      <CandyType>Interbeddedwaffles</CandyType>
+      <ExpirationDate>2016-11-01T00:00:00</ExpirationDate>
+    </Candy>
+    <Amount>1</Amount>
+  </CandyForSet>
+  <CandyForSet>
+    <Candy>
+      <CandyName>Балтика</CandyName>
+      <Sugar>33.586105300852147</Sugar>
+      <FoodValue>841.937512085744</FoodValue>
+      <Weight>5</Weight>
+      <Flour>0</Flour>
+      <CandyType>SingleLayer</CandyType>
+      <ExpirationDate>2016-06-01T00:00:00</ExpirationDate>
+    </Candy>
+    <Amount>1</Amount>
+  </CandyForSet>
+  <CandyForSet>
+    <Candy>
+      <CandyName>Кара-Кум</CandyName>
+      <Sugar>64.6162680651137</Sugar>
+      <FoodValue>884.07171838175122</FoodValue>
+      <Weight>5</Weight>
+      <Flour>0</Flour>
+      <CandyType>OfFruitPreservedInAlcohol</CandyType>
+      <ExpirationDate>2016-01-01T00:00:00</ExpirationDate>
     </Candy>
     <Amount>1</Amount>
   </CandyForSet>

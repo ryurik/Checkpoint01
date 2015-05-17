@@ -16,8 +16,15 @@ namespace Checkpoint01.Classes
         private readonly ICollection<CandyForSet> _candy = new List<CandyForSet>();
         
         // название набора конфет
-        public string CandySetName { get; set; }
+        public string CandySetName { get; set; } // не сериализируется...сука
 
+        public CandySet()
+        {}
+
+        public CandySet(string candySetName)
+        {
+            CandySetName = candySetName;
+        }
         // находим минимальный срок хранения
         public DateTime ExpirationDate 
         {
@@ -76,7 +83,7 @@ namespace Checkpoint01.Classes
 
         public static CandySet LoadFromFile(string candyName)
         {
-            string fileName = Path.Combine(Program.AppPath, Program.CandyData[0], Path.ChangeExtension(candyName, Program.CandyData[1]));
+            string fileName = Path.Combine(Program.AppPath, Program.CandySetData[0], Path.ChangeExtension(candyName, Program.CandySetData[1]));
             if (!File.Exists(fileName))
             {
                 return null;

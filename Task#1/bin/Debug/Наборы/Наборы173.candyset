@@ -2,37 +2,49 @@
 <ArrayOfCandyForSet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <CandyForSet>
     <Candy>
-      <CandyName>Вечерний звон</CandyName>
-      <Sugar>93.172002673694863</Sugar>
-      <FoodValue>791.46536802475589</FoodValue>
-      <Weight>7</Weight>
+      <CandyName>Ну-ка, отними!</CandyName>
+      <Sugar>59.602254936286371</Sugar>
+      <FoodValue>340.84116543682347</FoodValue>
+      <Weight>10</Weight>
       <Flour>0</Flour>
-      <CandyType>OfFruitPreservedInAlcohol</CandyType>
-      <ExpirationDate>2019-03-01T00:00:00</ExpirationDate>
-    </Candy>
-    <Amount>9</Amount>
-  </CandyForSet>
-  <CandyForSet>
-    <Candy>
-      <CandyName>Мишка косолапый</CandyName>
-      <Sugar>41.650131783285239</Sugar>
-      <FoodValue>60.474286349711143</FoodValue>
-      <Weight>11</Weight>
-      <Flour>0</Flour>
-      <CandyType>OfFruitPreservedInAlcohol</CandyType>
-      <ExpirationDate>2018-05-01T00:00:00</ExpirationDate>
+      <CandyType>SingleLayer</CandyType>
+      <ExpirationDate>2019-04-01T00:00:00</ExpirationDate>
     </Candy>
     <Amount>1</Amount>
   </CandyForSet>
   <CandyForSet>
     <Candy>
-      <CandyName>Басни Крылова</CandyName>
-      <Sugar>29.281335384250305</Sugar>
-      <FoodValue>650.57956690461344</FoodValue>
-      <Weight>15</Weight>
+      <CandyName>Мишка на Севере</CandyName>
+      <Sugar>55.676819782553622</Sugar>
+      <FoodValue>861.95658513435933</FoodValue>
+      <Weight>9</Weight>
+      <Flour>63.747876213746089</Flour>
+      <CandyType>Interbeddedwaffles</CandyType>
+      <ExpirationDate>2016-11-01T00:00:00</ExpirationDate>
+    </Candy>
+    <Amount>5</Amount>
+  </CandyForSet>
+  <CandyForSet>
+    <Candy>
+      <CandyName>Суфле</CandyName>
+      <Sugar>27.517826076372447</Sugar>
+      <FoodValue>874.35140315180251</FoodValue>
+      <Weight>17</Weight>
       <Flour>0</Flour>
-      <CandyType>Multilayer</CandyType>
-      <ExpirationDate>2018-04-01T00:00:00</ExpirationDate>
+      <CandyType>NutsAndDriedFruits</CandyType>
+      <ExpirationDate>2016-06-01T00:00:00</ExpirationDate>
+    </Candy>
+    <Amount>1</Amount>
+  </CandyForSet>
+  <CandyForSet>
+    <Candy>
+      <CandyName>Трюфель Экстра</CandyName>
+      <Sugar>27.517826076372447</Sugar>
+      <FoodValue>874.35140315180251</FoodValue>
+      <Weight>17</Weight>
+      <Flour>0</Flour>
+      <CandyType>NutsAndDriedFruits</CandyType>
+      <ExpirationDate>2016-06-01T00:00:00</ExpirationDate>
     </Candy>
     <Amount>1</Amount>
   </CandyForSet>

@@ -2,19 +2,19 @@
 <ArrayOfCandyForSet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <CandyForSet>
     <Candy>
-      <CandyName>Красная шапочка</CandyName>
-      <Sugar>5.5604274876231461</Sugar>
-      <FoodValue>221.50188135984442</FoodValue>
-      <Weight>11</Weight>
+      <CandyName>Маска</CandyName>
+      <Sugar>2.9327060109622338</Sugar>
+      <FoodValue>505.84108126621743</FoodValue>
+      <Weight>16</Weight>
       <Flour>0</Flour>
       <CandyType>Multilayer</CandyType>
-      <ExpirationDate>2017-01-01T00:00:00</ExpirationDate>
+      <ExpirationDate>2019-01-01T00:00:00</ExpirationDate>
     </Candy>
-    <Amount>5</Amount>
+    <Amount>2</Amount>
   </CandyForSet>
   <CandyForSet>
     <Candy>
-      <CandyName>Космические</CandyName>
+      <CandyName>Трюфель Экстра</CandyName>
       <Sugar>27.517826076372447</Sugar>
       <FoodValue>874.35140315180251</FoodValue>
       <Weight>17</Weight>
@@ -26,25 +26,49 @@
   </CandyForSet>
   <CandyForSet>
     <Candy>
-      <CandyName>Цитрон</CandyName>
-      <Sugar>31.044844692128169</Sugar>
-      <FoodValue>426.80773065742466</FoodValue>
-      <Weight>12</Weight>
-      <Flour>0</Flour>
-      <CandyType>OfFruitPreservedInAlcohol</CandyType>
-      <ExpirationDate>2019-02-01T00:00:00</ExpirationDate>
-    </Candy>
-    <Amount>1</Amount>
-  </CandyForSet>
-  <CandyForSet>
-    <Candy>
-      <CandyName>Вихрь</CandyName>
+      <CandyName>Буревестник</CandyName>
       <Sugar>20.19813466826367</Sugar>
       <FoodValue>654.52163417568511</FoodValue>
       <Weight>16</Weight>
       <Flour>0</Flour>
       <CandyType>SingleLayer</CandyType>
       <ExpirationDate>2017-08-01T00:00:00</ExpirationDate>
+    </Candy>
+    <Amount>1</Amount>
+  </CandyForSet>
+  <CandyForSet>
+    <Candy>
+      <CandyName>Вечерний звон</CandyName>
+      <Sugar>93.172002673694863</Sugar>
+      <FoodValue>791.46536802475589</FoodValue>
+      <Weight>7</Weight>
+      <Flour>0</Flour>
+      <CandyType>OfFruitPreservedInAlcohol</CandyType>
+      <ExpirationDate>2019-03-01T00:00:00</ExpirationDate>
+    </Candy>
+    <Amount>2</Amount>
+  </CandyForSet>
+  <CandyForSet>
+    <Candy>
+      <CandyName>Красная</CandyName>
+      <Sugar>1.5367683030370476</Sugar>
+      <FoodValue>22.282147324775412</FoodValue>
+      <Weight>12</Weight>
+      <Flour>0</Flour>
+      <CandyType>OfFruitPreservedInAlcohol</CandyType>
+      <ExpirationDate>2017-02-01T00:00:00</ExpirationDate>
+    </Candy>
+    <Amount>1</Amount>
+  </CandyForSet>
+  <CandyForSet>
+    <Candy>
+      <CandyName>Балтика</CandyName>
+      <Sugar>33.586105300852147</Sugar>
+      <FoodValue>841.937512085744</FoodValue>
+      <Weight>5</Weight>
+      <Flour>0</Flour>
+      <CandyType>SingleLayer</CandyType>
+      <ExpirationDate>2016-06-01T00:00:00</ExpirationDate>
     </Candy>
     <Amount>1</Amount>
   </CandyForSet>

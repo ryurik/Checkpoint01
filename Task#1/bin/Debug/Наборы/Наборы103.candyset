@@ -2,25 +2,37 @@
 <ArrayOfCandyForSet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <CandyForSet>
     <Candy>
-      <CandyName>Садко</CandyName>
-      <Sugar>47.144077367682044</Sugar>
-      <FoodValue>430.37093963025649</FoodValue>
-      <Weight>14</Weight>
+      <CandyName>Трюфель</CandyName>
+      <Sugar>27.517826076372447</Sugar>
+      <FoodValue>874.35140315180251</FoodValue>
+      <Weight>17</Weight>
       <Flour>0</Flour>
-      <CandyType>OfFruitPreservedInAlcohol</CandyType>
-      <ExpirationDate>2018-02-01T00:00:00</ExpirationDate>
+      <CandyType>NutsAndDriedFruits</CandyType>
+      <ExpirationDate>2016-06-01T00:00:00</ExpirationDate>
     </Candy>
-    <Amount>6</Amount>
+    <Amount>3</Amount>
   </CandyForSet>
   <CandyForSet>
     <Candy>
-      <CandyName>Петушок – золотой гребешок</CandyName>
-      <Sugar>68.317884052320338</Sugar>
-      <FoodValue>44.229868354382859</FoodValue>
-      <Weight>15</Weight>
+      <CandyName>Мишка на Севере</CandyName>
+      <Sugar>55.676819782553622</Sugar>
+      <FoodValue>861.95658513435933</FoodValue>
+      <Weight>9</Weight>
+      <Flour>63.747876213746089</Flour>
+      <CandyType>Interbeddedwaffles</CandyType>
+      <ExpirationDate>2016-11-01T00:00:00</ExpirationDate>
+    </Candy>
+    <Amount>4</Amount>
+  </CandyForSet>
+  <CandyForSet>
+    <Candy>
+      <CandyName>Радий</CandyName>
+      <Sugar>31.044844692128169</Sugar>
+      <FoodValue>426.80773065742466</FoodValue>
+      <Weight>12</Weight>
       <Flour>0</Flour>
-      <CandyType>Multilayer</CandyType>
-      <ExpirationDate>2019-01-01T00:00:00</ExpirationDate>
+      <CandyType>OfFruitPreservedInAlcohol</CandyType>
+      <ExpirationDate>2019-02-01T00:00:00</ExpirationDate>
     </Candy>
     <Amount>1</Amount>
   </CandyForSet>

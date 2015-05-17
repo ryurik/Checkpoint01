@@ -2,7 +2,31 @@
 <ArrayOfCandyForSet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <CandyForSet>
     <Candy>
-      <CandyName>Южные орехи</CandyName>
+      <CandyName>Вихрь</CandyName>
+      <Sugar>20.19813466826367</Sugar>
+      <FoodValue>654.52163417568511</FoodValue>
+      <Weight>16</Weight>
+      <Flour>0</Flour>
+      <CandyType>SingleLayer</CandyType>
+      <ExpirationDate>2017-08-01T00:00:00</ExpirationDate>
+    </Candy>
+    <Amount>2</Amount>
+  </CandyForSet>
+  <CandyForSet>
+    <Candy>
+      <CandyName>Красная</CandyName>
+      <Sugar>1.5367683030370476</Sugar>
+      <FoodValue>22.282147324775412</FoodValue>
+      <Weight>12</Weight>
+      <Flour>0</Flour>
+      <CandyType>OfFruitPreservedInAlcohol</CandyType>
+      <ExpirationDate>2017-02-01T00:00:00</ExpirationDate>
+    </Candy>
+    <Amount>1</Amount>
+  </CandyForSet>
+  <CandyForSet>
+    <Candy>
+      <CandyName>Радий</CandyName>
       <Sugar>31.044844692128169</Sugar>
       <FoodValue>426.80773065742466</FoodValue>
       <Weight>12</Weight>
@@ -10,41 +34,29 @@
       <CandyType>OfFruitPreservedInAlcohol</CandyType>
       <ExpirationDate>2019-02-01T00:00:00</ExpirationDate>
     </Candy>
-    <Amount>4</Amount>
-  </CandyForSet>
-  <CandyForSet>
-    <Candy>
-      <CandyName>Садко</CandyName>
-      <Sugar>47.144077367682044</Sugar>
-      <FoodValue>430.37093963025649</FoodValue>
-      <Weight>14</Weight>
-      <Flour>0</Flour>
-      <CandyType>OfFruitPreservedInAlcohol</CandyType>
-      <ExpirationDate>2018-02-01T00:00:00</ExpirationDate>
-    </Candy>
     <Amount>2</Amount>
   </CandyForSet>
   <CandyForSet>
     <Candy>
-      <CandyName>Сливовые листья</CandyName>
-      <Sugar>29.281335384250305</Sugar>
-      <FoodValue>650.57956690461344</FoodValue>
-      <Weight>15</Weight>
+      <CandyName>Птичье молоко</CandyName>
+      <Sugar>27.517826076372447</Sugar>
+      <FoodValue>874.35140315180251</FoodValue>
+      <Weight>17</Weight>
       <Flour>0</Flour>
-      <CandyType>Multilayer</CandyType>
-      <ExpirationDate>2018-04-01T00:00:00</ExpirationDate>
+      <CandyType>NutsAndDriedFruits</CandyType>
+      <ExpirationDate>2016-06-01T00:00:00</ExpirationDate>
     </Candy>
     <Amount>1</Amount>
   </CandyForSet>
   <CandyForSet>
     <Candy>
-      <CandyName>Мишка на Севере</CandyName>
-      <Sugar>55.676819782553622</Sugar>
-      <FoodValue>861.95658513435933</FoodValue>
-      <Weight>9</Weight>
-      <Flour>63.747876213746089</Flour>
-      <CandyType>Interbeddedwaffles</CandyType>
-      <ExpirationDate>2016-11-01T00:00:00</ExpirationDate>
+      <CandyName>Красная шапочка</CandyName>
+      <Sugar>5.5604274876231461</Sugar>
+      <FoodValue>221.50188135984442</FoodValue>
+      <Weight>11</Weight>
+      <Flour>0</Flour>
+      <CandyType>Multilayer</CandyType>
+      <ExpirationDate>2017-01-01T00:00:00</ExpirationDate>
     </Candy>
     <Amount>1</Amount>
   </CandyForSet>

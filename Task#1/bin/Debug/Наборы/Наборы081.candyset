@@ -2,19 +2,31 @@
 <ArrayOfCandyForSet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <CandyForSet>
     <Candy>
-      <CandyName>Южная ночь</CandyName>
-      <Sugar>29.281335384250305</Sugar>
-      <FoodValue>650.57956690461344</FoodValue>
-      <Weight>15</Weight>
+      <CandyName>Клубничные</CandyName>
+      <Sugar>20.19813466826367</Sugar>
+      <FoodValue>654.52163417568511</FoodValue>
+      <Weight>16</Weight>
       <Flour>0</Flour>
-      <CandyType>Multilayer</CandyType>
-      <ExpirationDate>2018-04-01T00:00:00</ExpirationDate>
+      <CandyType>SingleLayer</CandyType>
+      <ExpirationDate>2017-08-01T00:00:00</ExpirationDate>
     </Candy>
-    <Amount>2</Amount>
+    <Amount>1</Amount>
   </CandyForSet>
   <CandyForSet>
     <Candy>
-      <CandyName>Космические</CandyName>
+      <CandyName>Вихрь</CandyName>
+      <Sugar>20.19813466826367</Sugar>
+      <FoodValue>654.52163417568511</FoodValue>
+      <Weight>16</Weight>
+      <Flour>0</Flour>
+      <CandyType>SingleLayer</CandyType>
+      <ExpirationDate>2017-08-01T00:00:00</ExpirationDate>
+    </Candy>
+    <Amount>1</Amount>
+  </CandyForSet>
+  <CandyForSet>
+    <Candy>
+      <CandyName>Трюфель Экстра</CandyName>
       <Sugar>27.517826076372447</Sugar>
       <FoodValue>874.35140315180251</FoodValue>
       <Weight>17</Weight>
@@ -26,10 +38,10 @@
   </CandyForSet>
   <CandyForSet>
     <Candy>
-      <CandyName>Петушок – золотой гребешок</CandyName>
-      <Sugar>68.317884052320338</Sugar>
-      <FoodValue>44.229868354382859</FoodValue>
-      <Weight>15</Weight>
+      <CandyName>Маска</CandyName>
+      <Sugar>2.9327060109622338</Sugar>
+      <FoodValue>505.84108126621743</FoodValue>
+      <Weight>16</Weight>
       <Flour>0</Flour>
       <CandyType>Multilayer</CandyType>
       <ExpirationDate>2019-01-01T00:00:00</ExpirationDate>

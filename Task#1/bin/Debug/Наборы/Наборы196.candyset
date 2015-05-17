@@ -2,7 +2,31 @@
 <ArrayOfCandyForSet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <CandyForSet>
     <Candy>
-      <CandyName>Стратосфера</CandyName>
+      <CandyName>Южные орехи</CandyName>
+      <Sugar>31.044844692128169</Sugar>
+      <FoodValue>426.80773065742466</FoodValue>
+      <Weight>12</Weight>
+      <Flour>0</Flour>
+      <CandyType>OfFruitPreservedInAlcohol</CandyType>
+      <ExpirationDate>2019-02-01T00:00:00</ExpirationDate>
+    </Candy>
+    <Amount>2</Amount>
+  </CandyForSet>
+  <CandyForSet>
+    <Candy>
+      <CandyName>Клубничные</CandyName>
+      <Sugar>20.19813466826367</Sugar>
+      <FoodValue>654.52163417568511</FoodValue>
+      <Weight>16</Weight>
+      <Flour>0</Flour>
+      <CandyType>SingleLayer</CandyType>
+      <ExpirationDate>2017-08-01T00:00:00</ExpirationDate>
+    </Candy>
+    <Amount>2</Amount>
+  </CandyForSet>
+  <CandyForSet>
+    <Candy>
+      <CandyName>Космические</CandyName>
       <Sugar>27.517826076372447</Sugar>
       <FoodValue>874.35140315180251</FoodValue>
       <Weight>17</Weight>
@@ -10,41 +34,41 @@
       <CandyType>NutsAndDriedFruits</CandyType>
       <ExpirationDate>2016-06-01T00:00:00</ExpirationDate>
     </Candy>
-    <Amount>2</Amount>
+    <Amount>1</Amount>
   </CandyForSet>
   <CandyForSet>
     <Candy>
-      <CandyName>Петушок – золотой гребешок</CandyName>
-      <Sugar>68.317884052320338</Sugar>
-      <FoodValue>44.229868354382859</FoodValue>
-      <Weight>15</Weight>
+      <CandyName>Ромашка</CandyName>
+      <Sugar>31.044844692128169</Sugar>
+      <FoodValue>426.80773065742466</FoodValue>
+      <Weight>12</Weight>
       <Flour>0</Flour>
-      <CandyType>Multilayer</CandyType>
-      <ExpirationDate>2019-01-01T00:00:00</ExpirationDate>
-    </Candy>
-    <Amount>2</Amount>
-  </CandyForSet>
-  <CandyForSet>
-    <Candy>
-      <CandyName>Грильяж</CandyName>
-      <Sugar>21.569848024086024</Sugar>
-      <FoodValue>911.2545013945803</FoodValue>
-      <Weight>18</Weight>
-      <Flour>0</Flour>
-      <CandyType>NutsAndDriedFruits</CandyType>
-      <ExpirationDate>2016-03-01T00:00:00</ExpirationDate>
+      <CandyType>OfFruitPreservedInAlcohol</CandyType>
+      <ExpirationDate>2019-02-01T00:00:00</ExpirationDate>
     </Candy>
     <Amount>1</Amount>
   </CandyForSet>
   <CandyForSet>
     <Candy>
-      <CandyName>Ласточка</CandyName>
-      <Sugar>20.19813466826367</Sugar>
-      <FoodValue>654.52163417568511</FoodValue>
-      <Weight>16</Weight>
+      <CandyName>Вечерний звон</CandyName>
+      <Sugar>93.172002673694863</Sugar>
+      <FoodValue>791.46536802475589</FoodValue>
+      <Weight>7</Weight>
+      <Flour>0</Flour>
+      <CandyType>OfFruitPreservedInAlcohol</CandyType>
+      <ExpirationDate>2019-03-01T00:00:00</ExpirationDate>
+    </Candy>
+    <Amount>1</Amount>
+  </CandyForSet>
+  <CandyForSet>
+    <Candy>
+      <CandyName>Балтика</CandyName>
+      <Sugar>33.586105300852147</Sugar>
+      <FoodValue>841.937512085744</FoodValue>
+      <Weight>5</Weight>
       <Flour>0</Flour>
       <CandyType>SingleLayer</CandyType>
-      <ExpirationDate>2017-08-01T00:00:00</ExpirationDate>
+      <ExpirationDate>2016-06-01T00:00:00</ExpirationDate>
     </Candy>
     <Amount>1</Amount>
   </CandyForSet>

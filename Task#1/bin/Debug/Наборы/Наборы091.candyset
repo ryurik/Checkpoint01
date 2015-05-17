@@ -2,31 +2,7 @@
 <ArrayOfCandyForSet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <CandyForSet>
     <Candy>
-      <CandyName>Смородинка</CandyName>
-      <Sugar>29.281335384250305</Sugar>
-      <FoodValue>650.57956690461344</FoodValue>
-      <Weight>15</Weight>
-      <Flour>0</Flour>
-      <CandyType>Multilayer</CandyType>
-      <ExpirationDate>2018-04-01T00:00:00</ExpirationDate>
-    </Candy>
-    <Amount>1</Amount>
-  </CandyForSet>
-  <CandyForSet>
-    <Candy>
-      <CandyName>Балтика</CandyName>
-      <Sugar>33.586105300852147</Sugar>
-      <FoodValue>841.937512085744</FoodValue>
-      <Weight>5</Weight>
-      <Flour>0</Flour>
-      <CandyType>SingleLayer</CandyType>
-      <ExpirationDate>2016-06-01T00:00:00</ExpirationDate>
-    </Candy>
-    <Amount>11</Amount>
-  </CandyForSet>
-  <CandyForSet>
-    <Candy>
-      <CandyName>Ромашка</CandyName>
+      <CandyName>Радий</CandyName>
       <Sugar>31.044844692128169</Sugar>
       <FoodValue>426.80773065742466</FoodValue>
       <Weight>12</Weight>
@@ -38,25 +14,37 @@
   </CandyForSet>
   <CandyForSet>
     <Candy>
-      <CandyName>Мишка косолапый</CandyName>
-      <Sugar>41.650131783285239</Sugar>
-      <FoodValue>60.474286349711143</FoodValue>
-      <Weight>11</Weight>
+      <CandyName>Маска</CandyName>
+      <Sugar>2.9327060109622338</Sugar>
+      <FoodValue>505.84108126621743</FoodValue>
+      <Weight>16</Weight>
       <Flour>0</Flour>
-      <CandyType>OfFruitPreservedInAlcohol</CandyType>
-      <ExpirationDate>2018-05-01T00:00:00</ExpirationDate>
+      <CandyType>Multilayer</CandyType>
+      <ExpirationDate>2019-01-01T00:00:00</ExpirationDate>
     </Candy>
-    <Amount>1</Amount>
+    <Amount>3</Amount>
   </CandyForSet>
   <CandyForSet>
     <Candy>
-      <CandyName>Кара-Кум</CandyName>
-      <Sugar>64.6162680651137</Sugar>
-      <FoodValue>884.07171838175122</FoodValue>
-      <Weight>5</Weight>
+      <CandyName>Красная</CandyName>
+      <Sugar>1.5367683030370476</Sugar>
+      <FoodValue>22.282147324775412</FoodValue>
+      <Weight>12</Weight>
       <Flour>0</Flour>
       <CandyType>OfFruitPreservedInAlcohol</CandyType>
-      <ExpirationDate>2016-01-01T00:00:00</ExpirationDate>
+      <ExpirationDate>2017-02-01T00:00:00</ExpirationDate>
+    </Candy>
+    <Amount>2</Amount>
+  </CandyForSet>
+  <CandyForSet>
+    <Candy>
+      <CandyName>Южная ночь</CandyName>
+      <Sugar>29.281335384250305</Sugar>
+      <FoodValue>650.57956690461344</FoodValue>
+      <Weight>15</Weight>
+      <Flour>0</Flour>
+      <CandyType>Multilayer</CandyType>
+      <ExpirationDate>2018-04-01T00:00:00</ExpirationDate>
     </Candy>
     <Amount>1</Amount>
   </CandyForSet>

@@ -2,13 +2,49 @@
 <ArrayOfCandyForSet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <CandyForSet>
     <Candy>
-      <CandyName>Белочка</CandyName>
-      <Sugar>34.049329643160725</Sugar>
-      <FoodValue>848.50630622753226</FoodValue>
-      <Weight>18</Weight>
+      <CandyName>Пилот</CandyName>
+      <Sugar>31.044844692128169</Sugar>
+      <FoodValue>426.80773065742466</FoodValue>
+      <Weight>12</Weight>
+      <Flour>0</Flour>
+      <CandyType>OfFruitPreservedInAlcohol</CandyType>
+      <ExpirationDate>2019-02-01T00:00:00</ExpirationDate>
+    </Candy>
+    <Amount>2</Amount>
+  </CandyForSet>
+  <CandyForSet>
+    <Candy>
+      <CandyName>Ромашка</CandyName>
+      <Sugar>31.044844692128169</Sugar>
+      <FoodValue>426.80773065742466</FoodValue>
+      <Weight>12</Weight>
+      <Flour>0</Flour>
+      <CandyType>OfFruitPreservedInAlcohol</CandyType>
+      <ExpirationDate>2019-02-01T00:00:00</ExpirationDate>
+    </Candy>
+    <Amount>1</Amount>
+  </CandyForSet>
+  <CandyForSet>
+    <Candy>
+      <CandyName>Гулливер</CandyName>
+      <Sugar>43.39693297790221</Sugar>
+      <FoodValue>16.605143908693059</FoodValue>
+      <Weight>14</Weight>
+      <Flour>0</Flour>
+      <CandyType>Interbeddedwaffles</CandyType>
+      <ExpirationDate>2016-11-01T00:00:00</ExpirationDate>
+    </Candy>
+    <Amount>3</Amount>
+  </CandyForSet>
+  <CandyForSet>
+    <Candy>
+      <CandyName>Шоколадный крем</CandyName>
+      <Sugar>20.19813466826367</Sugar>
+      <FoodValue>654.52163417568511</FoodValue>
+      <Weight>16</Weight>
       <Flour>0</Flour>
       <CandyType>SingleLayer</CandyType>
-      <ExpirationDate>2015-03-01T00:00:00</ExpirationDate>
+      <ExpirationDate>2017-08-01T00:00:00</ExpirationDate>
     </Candy>
     <Amount>1</Amount>
   </CandyForSet>
@@ -21,30 +57,6 @@
       <Flour>0</Flour>
       <CandyType>SingleLayer</CandyType>
       <ExpirationDate>2016-06-01T00:00:00</ExpirationDate>
-    </Candy>
-    <Amount>11</Amount>
-  </CandyForSet>
-  <CandyForSet>
-    <Candy>
-      <CandyName>Цитрон</CandyName>
-      <Sugar>31.044844692128169</Sugar>
-      <FoodValue>426.80773065742466</FoodValue>
-      <Weight>12</Weight>
-      <Flour>0</Flour>
-      <CandyType>OfFruitPreservedInAlcohol</CandyType>
-      <ExpirationDate>2019-02-01T00:00:00</ExpirationDate>
-    </Candy>
-    <Amount>1</Amount>
-  </CandyForSet>
-  <CandyForSet>
-    <Candy>
-      <CandyName>Пилот</CandyName>
-      <Sugar>31.044844692128169</Sugar>
-      <FoodValue>426.80773065742466</FoodValue>
-      <Weight>12</Weight>
-      <Flour>0</Flour>
-      <CandyType>OfFruitPreservedInAlcohol</CandyType>
-      <ExpirationDate>2019-02-01T00:00:00</ExpirationDate>
     </Candy>
     <Amount>1</Amount>
   </CandyForSet>

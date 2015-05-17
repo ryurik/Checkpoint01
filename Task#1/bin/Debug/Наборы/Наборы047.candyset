@@ -2,19 +2,19 @@
 <ArrayOfCandyForSet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <CandyForSet>
     <Candy>
-      <CandyName>Пилот</CandyName>
-      <Sugar>31.044844692128169</Sugar>
-      <FoodValue>426.80773065742466</FoodValue>
-      <Weight>12</Weight>
+      <CandyName>Грильяж</CandyName>
+      <Sugar>21.569848024086024</Sugar>
+      <FoodValue>911.2545013945803</FoodValue>
+      <Weight>18</Weight>
       <Flour>0</Flour>
-      <CandyType>OfFruitPreservedInAlcohol</CandyType>
-      <ExpirationDate>2019-02-01T00:00:00</ExpirationDate>
+      <CandyType>NutsAndDriedFruits</CandyType>
+      <ExpirationDate>2016-03-01T00:00:00</ExpirationDate>
     </Candy>
-    <Amount>6</Amount>
+    <Amount>1</Amount>
   </CandyForSet>
   <CandyForSet>
     <Candy>
-      <CandyName>Суфле</CandyName>
+      <CandyName>Космические</CandyName>
       <Sugar>27.517826076372447</Sugar>
       <FoodValue>874.35140315180251</FoodValue>
       <Weight>17</Weight>
@@ -26,13 +26,61 @@
   </CandyForSet>
   <CandyForSet>
     <Candy>
-      <CandyName>Ну-ка, отними!</CandyName>
-      <Sugar>59.602254936286371</Sugar>
-      <FoodValue>340.84116543682347</FoodValue>
-      <Weight>10</Weight>
+      <CandyName>Красная шапочка</CandyName>
+      <Sugar>5.5604274876231461</Sugar>
+      <FoodValue>221.50188135984442</FoodValue>
+      <Weight>11</Weight>
+      <Flour>0</Flour>
+      <CandyType>Multilayer</CandyType>
+      <ExpirationDate>2017-01-01T00:00:00</ExpirationDate>
+    </Candy>
+    <Amount>1</Amount>
+  </CandyForSet>
+  <CandyForSet>
+    <Candy>
+      <CandyName>Белочка</CandyName>
+      <Sugar>34.049329643160725</Sugar>
+      <FoodValue>848.50630622753226</FoodValue>
+      <Weight>18</Weight>
       <Flour>0</Flour>
       <CandyType>SingleLayer</CandyType>
-      <ExpirationDate>2019-04-01T00:00:00</ExpirationDate>
+      <ExpirationDate>2015-03-01T00:00:00</ExpirationDate>
+    </Candy>
+    <Amount>1</Amount>
+  </CandyForSet>
+  <CandyForSet>
+    <Candy>
+      <CandyName>Садко</CandyName>
+      <Sugar>47.144077367682044</Sugar>
+      <FoodValue>430.37093963025649</FoodValue>
+      <Weight>14</Weight>
+      <Flour>0</Flour>
+      <CandyType>OfFruitPreservedInAlcohol</CandyType>
+      <ExpirationDate>2018-02-01T00:00:00</ExpirationDate>
+    </Candy>
+    <Amount>1</Amount>
+  </CandyForSet>
+  <CandyForSet>
+    <Candy>
+      <CandyName>Вихрь</CandyName>
+      <Sugar>20.19813466826367</Sugar>
+      <FoodValue>654.52163417568511</FoodValue>
+      <Weight>16</Weight>
+      <Flour>0</Flour>
+      <CandyType>SingleLayer</CandyType>
+      <ExpirationDate>2017-08-01T00:00:00</ExpirationDate>
+    </Candy>
+    <Amount>1</Amount>
+  </CandyForSet>
+  <CandyForSet>
+    <Candy>
+      <CandyName>Кара-Кум</CandyName>
+      <Sugar>64.6162680651137</Sugar>
+      <FoodValue>884.07171838175122</FoodValue>
+      <Weight>5</Weight>
+      <Flour>0</Flour>
+      <CandyType>OfFruitPreservedInAlcohol</CandyType>
+      <ExpirationDate>2016-01-01T00:00:00</ExpirationDate>
     </Candy>
     <Amount>1</Amount>
   </CandyForSet>

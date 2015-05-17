@@ -37,13 +37,32 @@ namespace Checkpoint01
         {
             AppPath = Path.GetDirectoryName(Environment.GetCommandLineArgs()[0]);
 
-            CreateCandySets(true);
+            // CreateCandySets(true);
 
             ArrayList candyList = GetCandyList(); // получаем список конфет
-            ArrayList candySetList = FillCandySet(); // набор наборов конфет :)
+            ArrayList candySetList = FillCandySet(true); // набор наборов конфет :)
+
+            // Найдем просроченные наборы, т.е. у кого срок хранения вышел на текущую дату
+            Console.WriteLine("\nПросроченные наборы");
+            foreach (var c in candySetList.ToArray().Where(x => (x as CandySet).ExpirationDate < DateTime.Now))
+            {
+                Console.WriteLine("Набор:{0} срок годности истек: {1}",(c as CandySet).CandySetName, (c as CandySet).ExpirationDate);
+                var res = (from x in (c as CandySet)
+                           where (x.Candy.ExpirationDate < DateTime.Now)
+                          select (x as CandyForSet).Candy);
+                if (res.Any())
+                {
+                    Console.WriteLine("Во всем виноваты:");
+                    foreach (var cc in res)
+                    {
+                        Console.WriteLine("Конфетка:{0} со сроком:{1}", cc.CandyName, cc.ExpirationDate);
+                    }
+                }
+            }
             
             XmasGift XmasGift = new XmasGift();
             //XmasGift.Add(new CandySet());
+            Console.ReadKey();
         }
 
         public static ArrayList GetCandyList()
@@ -65,17 +84,20 @@ namespace Checkpoint01
             {
                 try
                 {
-                    List<CandyForSet> candySetList =
-                        Serializer.LoadFromBinnary<List<CandyForSet>>(Path.Combine(AppPath, CandySetData[0],
-                            Path.ChangeExtension(string.Format("{0}{1:D3}", CandySetData[0], i), CandySetData[1])));
-                    resultSet.Add(candySetList);
+                    CandySet candySet = CandySet.LoadFromFile(string.Format("{0}{1:D3}", CandySetData[0], i));
+                    candySet.CandySetName = string.Format("{0}{1:D3}", CandySetData[0], i);
+
+                    resultSet.Add(candySet);
                     if (showLog)
                     {
-                        Console.WriteLine("{0}{1:D3} : состоит:", CandySetData[0], i);
-                        foreach (var c in candySetList)
+                        Console.WriteLine("{0}{1:D3} состоит:", CandySetData[0], i);
+                        foreach (var c in candySet)
                         {
-                            Console.WriteLine("Конфета: {0}  количество:{1}",(c as CandyForSet).Candy.CandyName);
+                            Console.WriteLine("Конфета: {0}  количество:{1}", ((CandyForSet)c).Candy.CandyName, ((CandyForSet)c).Amount);
                         }
+                        Console.WriteLine("Вес набора:{0}", candySet.Weight);
+                        Console.WriteLine("Энергетическая ценность:{0}", candySet.FoodValue);
+                        Console.WriteLine("Годен до:{0}", candySet.ExpirationDate);
                     }
                 }
                 catch (Exception e)
@@ -112,7 +134,7 @@ namespace Checkpoint01
             for (int i = 0; i < CandySetAmount; i++)
             {
                 // делаем первых CandyName.Count наборов c 1 конфетой, чтобы потом можно было докладывать конфетами до определенного веса
-                CandySet CandySet = new CandySet();
+                CandySet CandySet = new CandySet(string.Format("{0}{1:D3}", CandySetData[0], i));
 
                 if (i < CandyNames.Count())
                 {

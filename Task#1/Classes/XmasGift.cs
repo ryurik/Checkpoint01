@@ -141,6 +141,15 @@ namespace Checkpoint01.Classes
         }
         #endregion
 
-
+        public IEnumerable<ISweets> GetXmasGiftForExpirationDate(DateTime startDate, DateTime endDate)
+        {
+            foreach (var i in _items)
+            {
+                if ((i as CandySet).ExpirationDate >= startDate && (i as CandySet).ExpirationDate <= endDate)
+                {
+                    yield return i;
+                }
+            }
+        }
     }
 }

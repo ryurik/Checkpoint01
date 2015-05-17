@@ -2,7 +2,7 @@
 <ArrayOfCandyForSet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <CandyForSet>
     <Candy>
-      <CandyName>Шоколадный крем</CandyName>
+      <CandyName>Вихрь</CandyName>
       <Sugar>20.19813466826367</Sugar>
       <FoodValue>654.52163417568511</FoodValue>
       <Weight>16</Weight>
@@ -10,7 +10,19 @@
       <CandyType>SingleLayer</CandyType>
       <ExpirationDate>2017-08-01T00:00:00</ExpirationDate>
     </Candy>
-    <Amount>4</Amount>
+    <Amount>1</Amount>
+  </CandyForSet>
+  <CandyForSet>
+    <Candy>
+      <CandyName>Красная шапочка</CandyName>
+      <Sugar>5.5604274876231461</Sugar>
+      <FoodValue>221.50188135984442</FoodValue>
+      <Weight>11</Weight>
+      <Flour>0</Flour>
+      <CandyType>Multilayer</CandyType>
+      <ExpirationDate>2017-01-01T00:00:00</ExpirationDate>
+    </Candy>
+    <Amount>5</Amount>
   </CandyForSet>
   <CandyForSet>
     <Candy>
@@ -26,13 +38,25 @@
   </CandyForSet>
   <CandyForSet>
     <Candy>
-      <CandyName>Красная Москва</CandyName>
-      <Sugar>27.517826076372447</Sugar>
-      <FoodValue>874.35140315180251</FoodValue>
-      <Weight>17</Weight>
+      <CandyName>Кара-Кум</CandyName>
+      <Sugar>64.6162680651137</Sugar>
+      <FoodValue>884.07171838175122</FoodValue>
+      <Weight>5</Weight>
       <Flour>0</Flour>
-      <CandyType>NutsAndDriedFruits</CandyType>
-      <ExpirationDate>2016-06-01T00:00:00</ExpirationDate>
+      <CandyType>OfFruitPreservedInAlcohol</CandyType>
+      <ExpirationDate>2016-01-01T00:00:00</ExpirationDate>
+    </Candy>
+    <Amount>1</Amount>
+  </CandyForSet>
+  <CandyForSet>
+    <Candy>
+      <CandyName>Золотая нива</CandyName>
+      <Sugar>34.772360667014659</Sugar>
+      <FoodValue>820.43173248899711</FoodValue>
+      <Weight>5</Weight>
+      <Flour>0</Flour>
+      <CandyType>Interbeddedwaffles</CandyType>
+      <ExpirationDate>2019-06-01T00:00:00</ExpirationDate>
     </Candy>
     <Amount>1</Amount>
   </CandyForSet>
