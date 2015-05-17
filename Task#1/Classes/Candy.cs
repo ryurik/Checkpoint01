@@ -57,7 +57,7 @@ namespace Checkpoint01.Classes
 
     // Конфета для набора.
     [Serializable]
-    public class CandyForSet 
+    public class CandyForSet
     {
         public Candy Candy { get; set; }
         public int Amount { get; set; } // Вводим кол-во конфет

@@ -19,7 +19,14 @@ namespace Checkpoint01.Classes
     }
     public class XmasGift : ICollection<ISweets> // CandySet
     {
+        private ICollection<ISweets> _items = new List<ISweets>();
+
         private XmasGiftSortType _sortType;
+
+        public int Weigh
+        {
+            get { return _items.Sum(x => (int)x.Weight); }
+        }
 
         public XmasGiftSortType SortedBy
         {
@@ -60,7 +67,6 @@ namespace Checkpoint01.Classes
             }
         }
 
-        private ICollection<ISweets> _items = new List<ISweets>();
 
         #region Sort
         public void SortByExpirationDate()

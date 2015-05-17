@@ -11,7 +11,7 @@ using Checkpoint01.Types;
 namespace Checkpoint01.Classes
 {
     [Serializable]
-    public class CandySet : ICollection<CandyForSet>, ISerializable // набор конфет
+    public class CandySet : ICollection<CandyForSet>, ISerializable, ISweets // набор конфет
     {
         private readonly ICollection<CandyForSet> _candy = new List<CandyForSet>();
         

@@ -24,6 +24,8 @@ namespace Checkpoint01
         public const int MaxCandySetWeight = 100;
         // Кол-во наборов
         public const int CandySetAmount = 200;
+        // Вес подарка
+        public const int XmasGiftWeight = 1000;
 
         public static string[] CandyData = { "Конфеты", "candy" };
         public static string[] CandySetData = { "Наборы", "candyset" };
@@ -59,9 +61,23 @@ namespace Checkpoint01
                     }
                 }
             }
-            
+
             XmasGift XmasGift = new XmasGift();
-            //XmasGift.Add(new CandySet());
+            Random r = new Random();
+            var validCandySets = (from x in candySetList.ToArray()
+                where (x as CandySet).ExpirationDate > DateTime.Now
+                select (x as CandySet));
+
+            while (XmasGift.Weigh < XmasGiftWeight)
+            {
+                CandySet CandySet;
+                do
+                {
+                    CandySet = (candySetList[r.Next(CandyNames.Count(), CandySetAmount - 1)] as CandySet);
+                } while (CandySet.ExpirationDate < DateTime.Now); //отсекаем просрАченные 
+                XmasGift.Add(CandySet);
+                
+            }
             Console.ReadKey();
         }
 
