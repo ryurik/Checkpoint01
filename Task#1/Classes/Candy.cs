@@ -23,6 +23,5 @@ namespace Checkpoint01.Classes
     public class CandyForSet : Candy
     {
         public int Amount { get; set; } // Вводим кол-во конфет
-        public bool IsReadOnly { get; set; }
     }
 }

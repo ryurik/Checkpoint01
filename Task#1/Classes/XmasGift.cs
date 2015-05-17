@@ -17,7 +17,7 @@ namespace Checkpoint01.Classes
         ByFlour,            // по углеводам
         ByExpirationDate    // по сроку годности
     }
-    public class XmasGift : ICollection<CandySet>
+    public class XmasGift : ICollection<ISweets> // CandySet
     {
         private XmasGiftSortType _sortType;
 
@@ -60,7 +60,7 @@ namespace Checkpoint01.Classes
             }
         }
 
-        private ICollection<CandySet> _items = new List<CandySet>();
+        private ICollection<ISweets> _items = new List<ISweets>();
 
         #region Sort
         public void SortByExpirationDate()
@@ -85,7 +85,7 @@ namespace Checkpoint01.Classes
             SortedBy = XmasGiftSortType.ByWeight;
         }
         //////////////////////////
-        protected void Sort(IComparer<CandySet> comparer)
+        protected void Sort(IComparer<ISweets> comparer)
         {
             var newList = _items.ToList();
             newList.Sort(comparer);
@@ -95,7 +95,7 @@ namespace Checkpoint01.Classes
 
         #region ICollection<ICandy>
 
-        public void Add(CandySet item)
+        public void Add(ISweets item)
         {
             _items.Add(item);
         }
@@ -105,12 +105,12 @@ namespace Checkpoint01.Classes
             _items.Clear();
         }
 
-        public bool Contains(CandySet item)
+        public bool Contains(ISweets item)
         {
             return _items.Contains(item);
         }
 
-        public void CopyTo(CandySet[] array, int arrayIndex)
+        public void CopyTo(ISweets[] array, int arrayIndex)
         {
             _items.CopyTo(array, arrayIndex);
         }
@@ -125,12 +125,12 @@ namespace Checkpoint01.Classes
             get { return _items.IsReadOnly; }
         }
 
-        public bool Remove(CandySet item)
+        public bool Remove(ISweets item)
         {
             return _items.Remove(item);
         }
 
-        public IEnumerator<CandySet> GetEnumerator()
+        public IEnumerator<ISweets> GetEnumerator()
         {
             return _items.GetEnumerator();
         }

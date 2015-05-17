@@ -11,7 +11,7 @@
   <Class Name="Checkpoint01.Classes.XmasGift" Collapsed="true" BaseTypeListCollapsed="true">
     <Position X="14" Y="2" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>ACIAAABAAAAAABAQAAAQBAQAABAAAAAAAAAAAABQIAA=</HashCode>
+      <HashCode>ACIAiAAAAAAAADAQAUA0BAQAABAAAAAAAAAAAABQIAA=</HashCode>
       <FileName>Classes\XmasGift.cs</FileName>
     </TypeIdentifier>
     <Lollipop Position="0.2" Collapsed="true" />
@@ -19,7 +19,7 @@
   <Class Name="Checkpoint01.Classes.XmasGiftBuilder" Collapsed="true">
     <Position X="15.75" Y="2" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Classes\XmasGiftBuilder.cs</FileName>
     </TypeIdentifier>
   </Class>
@@ -42,7 +42,7 @@
   <Class Name="Checkpoint01.Classes.CandyForSet" Collapsed="true">
     <Position X="7" Y="8.25" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAAQAAAAAACAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Classes\Candy.cs</FileName>
     </TypeIdentifier>
   </Class>
