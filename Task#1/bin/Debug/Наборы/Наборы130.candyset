@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfCandyForSet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CandyForSet>
+    <Candy>
+      <CandyName>Радий</CandyName>
+      <Sugar>31.044844692128169</Sugar>
+      <FoodValue>426.80773065742466</FoodValue>
+      <Weight>12</Weight>
+      <Flour>0</Flour>
+      <CandyType>OfFruitPreservedInAlcohol</CandyType>
+      <ExpirationDate>2019-02-01T00:00:00</ExpirationDate>
+    </Candy>
+    <Amount>7</Amount>
+  </CandyForSet>
+  <CandyForSet>
+    <Candy>
+      <CandyName>Золотая нива</CandyName>
+      <Sugar>34.772360667014659</Sugar>
+      <FoodValue>820.43173248899711</FoodValue>
+      <Weight>5</Weight>
+      <Flour>0</Flour>
+      <CandyType>Interbeddedwaffles</CandyType>
+      <ExpirationDate>2019-06-01T00:00:00</ExpirationDate>
+    </Candy>
+    <Amount>1</Amount>
+  </CandyForSet>
+  <CandyForSet>
+    <Candy>
+      <CandyName>Ну-ка, отними!</CandyName>
+      <Sugar>59.602254936286371</Sugar>
+      <FoodValue>340.84116543682347</FoodValue>
+      <Weight>10</Weight>
+      <Flour>0</Flour>
+      <CandyType>SingleLayer</CandyType>
+      <ExpirationDate>2019-04-01T00:00:00</ExpirationDate>
+    </Candy>
+    <Amount>1</Amount>
+  </CandyForSet>
+</ArrayOfCandyForSet>

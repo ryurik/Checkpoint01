@@ -34,6 +34,25 @@ namespace Checkpoint01.Classes
     }
     #endregion
 
+    #region CandyForSetComparer
+
+    class CandyForSetComparerByCandy : IEqualityComparer<ISweets>
+    {
+        public bool Equals(ISweets x, ISweets y)
+        {
+            if (x == null || y == null) return (y == null && x == null);
+            return ((x as CandyForSet).Candy.CandyName == (y as CandyForSet).Candy.CandyName);
+        }
+
+        public int GetHashCode(ISweets obj)
+        {
+            CandyForSet candy = (obj as CandyForSet);
+
+            return (candy != null) ? candy.Candy.GetHashCode() : 0;
+        }
+    }
+    #endregion
+
     #region CandySetComparer
     class CandySetComparerBySugar : IComparer<ISweets>
     {

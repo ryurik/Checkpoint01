@@ -13,7 +13,7 @@ namespace Checkpoint01.Classes
     [Serializable]
     public class CandySet : ICollection<CandyForSet>, ISerializable // набор конфет
     {
-        public readonly ICollection<CandyForSet> _candy = new List<CandyForSet>();
+        private readonly ICollection<CandyForSet> _candy = new List<CandyForSet>();
         
         // название набора конфет
         public string CandySetName { get; set; }
@@ -24,10 +24,7 @@ namespace Checkpoint01.Classes
             get {return _candy.Min(x => x.Candy.ExpirationDate);}
             //set { new InvalidOperationException("Deprecated"); }
         }
-
-        // кол-во наборов в подарке?
-        public int Quntity { get; set; } 
-
+        
         // кол-во Сахара в наборе
         public double Sugar {
             get { return _candy.Sum(x => x.Candy.Sugar * x.Amount); }

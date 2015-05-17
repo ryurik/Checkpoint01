@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfCandyForSet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CandyForSet>
+    <Candy>
+      <CandyName>Мишка на Севере</CandyName>
+      <Sugar>55.676819782553622</Sugar>
+      <FoodValue>861.95658513435933</FoodValue>
+      <Weight>9</Weight>
+      <Flour>63.747876213746089</Flour>
+      <CandyType>Interbeddedwaffles</CandyType>
+      <ExpirationDate>2016-11-01T00:00:00</ExpirationDate>
+    </Candy>
+    <Amount>4</Amount>
+  </CandyForSet>
+  <CandyForSet>
+    <Candy>
+      <CandyName>Грильяж</CandyName>
+      <Sugar>21.569848024086024</Sugar>
+      <FoodValue>911.2545013945803</FoodValue>
+      <Weight>18</Weight>
+      <Flour>0</Flour>
+      <CandyType>NutsAndDriedFruits</CandyType>
+      <ExpirationDate>2016-03-01T00:00:00</ExpirationDate>
+    </Candy>
+    <Amount>2</Amount>
+  </CandyForSet>
+  <CandyForSet>
+    <Candy>
+      <CandyName>Красная шапочка</CandyName>
+      <Sugar>5.5604274876231461</Sugar>
+      <FoodValue>221.50188135984442</FoodValue>
+      <Weight>11</Weight>
+      <Flour>0</Flour>
+      <CandyType>Multilayer</CandyType>
+      <ExpirationDate>2017-01-01T00:00:00</ExpirationDate>
+    </Candy>
+    <Amount>1</Amount>
+  </CandyForSet>
+  <CandyForSet>
+    <Candy>
+      <CandyName>Клубничные</CandyName>
+      <Sugar>20.19813466826367</Sugar>
+      <FoodValue>654.52163417568511</FoodValue>
+      <Weight>16</Weight>
+      <Flour>0</Flour>
+      <CandyType>SingleLayer</CandyType>
+      <ExpirationDate>2017-08-01T00:00:00</ExpirationDate>
+    </Candy>
+    <Amount>1</Amount>
+  </CandyForSet>
+</ArrayOfCandyForSet>

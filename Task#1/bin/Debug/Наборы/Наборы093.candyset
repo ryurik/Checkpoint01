@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfCandyForSet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CandyForSet>
+    <Candy>
+      <CandyName>Грильяж</CandyName>
+      <Sugar>21.569848024086024</Sugar>
+      <FoodValue>911.2545013945803</FoodValue>
+      <Weight>18</Weight>
+      <Flour>0</Flour>
+      <CandyType>NutsAndDriedFruits</CandyType>
+      <ExpirationDate>2016-03-01T00:00:00</ExpirationDate>
+    </Candy>
+    <Amount>4</Amount>
+  </CandyForSet>
+  <CandyForSet>
+    <Candy>
+      <CandyName>Пилот</CandyName>
+      <Sugar>31.044844692128169</Sugar>
+      <FoodValue>426.80773065742466</FoodValue>
+      <Weight>12</Weight>
+      <Flour>0</Flour>
+      <CandyType>OfFruitPreservedInAlcohol</CandyType>
+      <ExpirationDate>2019-02-01T00:00:00</ExpirationDate>
+    </Candy>
+    <Amount>1</Amount>
+  </CandyForSet>
+  <CandyForSet>
+    <Candy>
+      <CandyName>Красная</CandyName>
+      <Sugar>1.5367683030370476</Sugar>
+      <FoodValue>22.282147324775412</FoodValue>
+      <Weight>12</Weight>
+      <Flour>0</Flour>
+      <CandyType>OfFruitPreservedInAlcohol</CandyType>
+      <ExpirationDate>2017-02-01T00:00:00</ExpirationDate>
+    </Candy>
+    <Amount>1</Amount>
+  </CandyForSet>
+</ArrayOfCandyForSet>

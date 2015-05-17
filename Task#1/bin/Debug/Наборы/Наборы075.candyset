@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfCandyForSet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CandyForSet>
+    <Candy>
+      <CandyName>Золотая нива</CandyName>
+      <Sugar>34.772360667014659</Sugar>
+      <FoodValue>820.43173248899711</FoodValue>
+      <Weight>5</Weight>
+      <Flour>0</Flour>
+      <CandyType>Interbeddedwaffles</CandyType>
+      <ExpirationDate>2019-06-01T00:00:00</ExpirationDate>
+    </Candy>
+    <Amount>18</Amount>
+  </CandyForSet>
+  <CandyForSet>
+    <Candy>
+      <CandyName>Кара-Кум</CandyName>
+      <Sugar>64.6162680651137</Sugar>
+      <FoodValue>884.07171838175122</FoodValue>
+      <Weight>5</Weight>
+      <Flour>0</Flour>
+      <CandyType>OfFruitPreservedInAlcohol</CandyType>
+      <ExpirationDate>2016-01-01T00:00:00</ExpirationDate>
+    </Candy>
+    <Amount>1</Amount>
+  </CandyForSet>
+</ArrayOfCandyForSet>

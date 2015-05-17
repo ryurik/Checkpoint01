@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfCandyForSet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CandyForSet>
+    <Candy>
+      <CandyName>Гулливер</CandyName>
+      <Sugar>43.39693297790221</Sugar>
+      <FoodValue>16.605143908693059</FoodValue>
+      <Weight>14</Weight>
+      <Flour>0</Flour>
+      <CandyType>Interbeddedwaffles</CandyType>
+      <ExpirationDate>2016-11-01T00:00:00</ExpirationDate>
+    </Candy>
+    <Amount>3</Amount>
+  </CandyForSet>
+  <CandyForSet>
+    <Candy>
+      <CandyName>Буревестник</CandyName>
+      <Sugar>20.19813466826367</Sugar>
+      <FoodValue>654.52163417568511</FoodValue>
+      <Weight>16</Weight>
+      <Flour>0</Flour>
+      <CandyType>SingleLayer</CandyType>
+      <ExpirationDate>2017-08-01T00:00:00</ExpirationDate>
+    </Candy>
+    <Amount>2</Amount>
+  </CandyForSet>
+  <CandyForSet>
+    <Candy>
+      <CandyName>Золотая нива</CandyName>
+      <Sugar>34.772360667014659</Sugar>
+      <FoodValue>820.43173248899711</FoodValue>
+      <Weight>5</Weight>
+      <Flour>0</Flour>
+      <CandyType>Interbeddedwaffles</CandyType>
+      <ExpirationDate>2019-06-01T00:00:00</ExpirationDate>
+    </Candy>
+    <Amount>2</Amount>
+  </CandyForSet>
+  <CandyForSet>
+    <Candy>
+      <CandyName>Южная ночь</CandyName>
+      <Sugar>29.281335384250305</Sugar>
+      <FoodValue>650.57956690461344</FoodValue>
+      <Weight>15</Weight>
+      <Flour>0</Flour>
+      <CandyType>Multilayer</CandyType>
+      <ExpirationDate>2018-04-01T00:00:00</ExpirationDate>
+    </Candy>
+    <Amount>1</Amount>
+  </CandyForSet>
+</ArrayOfCandyForSet>

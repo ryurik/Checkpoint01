@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfCandyForSet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CandyForSet>
+    <Candy>
+      <CandyName>Мишка на Севере</CandyName>
+      <Sugar>55.676819782553622</Sugar>
+      <FoodValue>861.95658513435933</FoodValue>
+      <Weight>9</Weight>
+      <Flour>63.747876213746089</Flour>
+      <CandyType>Interbeddedwaffles</CandyType>
+      <ExpirationDate>2016-11-01T00:00:00</ExpirationDate>
+    </Candy>
+    <Amount>9</Amount>
+  </CandyForSet>
+  <CandyForSet>
+    <Candy>
+      <CandyName>Гулливер</CandyName>
+      <Sugar>43.39693297790221</Sugar>
+      <FoodValue>16.605143908693059</FoodValue>
+      <Weight>14</Weight>
+      <Flour>0</Flour>
+      <CandyType>Interbeddedwaffles</CandyType>
+      <ExpirationDate>2016-11-01T00:00:00</ExpirationDate>
+    </Candy>
+    <Amount>1</Amount>
+  </CandyForSet>
+</ArrayOfCandyForSet>

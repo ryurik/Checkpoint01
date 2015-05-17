@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfCandyForSet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CandyForSet>
+    <Candy>
+      <CandyName>Ласточка</CandyName>
+      <Sugar>20.19813466826367</Sugar>
+      <FoodValue>654.52163417568511</FoodValue>
+      <Weight>16</Weight>
+      <Flour>0</Flour>
+      <CandyType>SingleLayer</CandyType>
+      <ExpirationDate>2017-08-01T00:00:00</ExpirationDate>
+    </Candy>
+    <Amount>5</Amount>
+  </CandyForSet>
+  <CandyForSet>
+    <Candy>
+      <CandyName>Южные орехи</CandyName>
+      <Sugar>31.044844692128169</Sugar>
+      <FoodValue>426.80773065742466</FoodValue>
+      <Weight>12</Weight>
+      <Flour>0</Flour>
+      <CandyType>OfFruitPreservedInAlcohol</CandyType>
+      <ExpirationDate>2019-02-01T00:00:00</ExpirationDate>
+    </Candy>
+    <Amount>1</Amount>
+  </CandyForSet>
+  <CandyForSet>
+    <Candy>
+      <CandyName>Вечерний звон</CandyName>
+      <Sugar>93.172002673694863</Sugar>
+      <FoodValue>791.46536802475589</FoodValue>
+      <Weight>7</Weight>
+      <Flour>0</Flour>
+      <CandyType>OfFruitPreservedInAlcohol</CandyType>
+      <ExpirationDate>2019-03-01T00:00:00</ExpirationDate>
+    </Candy>
+    <Amount>1</Amount>
+  </CandyForSet>
+</ArrayOfCandyForSet>

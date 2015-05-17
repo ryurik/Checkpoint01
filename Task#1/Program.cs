@@ -18,6 +18,12 @@ namespace Checkpoint01
     {
         // Точность вычислений при сравнении
         public const double Precision = 0.0001;
+        // Максимальное кол-во конфет в наборе
+        public const int MaxCandyAmountInSet = 20;
+        // Максимальный вес набора конфет
+        public const int MaxCandySetWeight = 100;
+        // Кол-во наборов
+        public const int CandySetAmount = 200;
 
         public static string[] CandyData = { "Конфеты", "candy" };
         public static string[] CandySetData = { "Наборы", "candyset" };
@@ -30,85 +36,126 @@ namespace Checkpoint01
         static void Main(string[] args)
         {
             AppPath = Path.GetDirectoryName(Environment.GetCommandLineArgs()[0]);
-            // Создаем конфеты
-            foreach (var c in CandyNames)
-            {
-                if (!File.Exists(Path.Combine(AppPath, CandyData[0], Path.ChangeExtension(c, CandyData[1]))))
-                    Candy.SaveToFile(c);  
-            }
+
+            CreateCandySets(true);
+
+            ArrayList candyList = GetCandyList(); // получаем список конфет
+            ArrayList candySetList = FillCandySet(); // набор наборов конфет :)
             
-            Random r = new Random();
-            // делаем 200 наборов конфет.
-            // т.е. в наборе конфета1-количество, ..., конфетаN-количество
-            // считаем, что кол-во конфет в наборе не должно превышать 20 и вес 100г.
-            ArrayList candyList = new ArrayList();
-            for (int i = 0; i < 200; i++)
-            {
-                // делаем первых CandyName.Count наборов c 1 конфетой
-                List<CandyForSet> CandySetList =  new List<CandyForSet>(); 
-                
-                if (i < CandyNames.Count())
-                {
-                    Candy candy = Candy.LoadFromFile(CandyNames[i]);
-                    candyList.Add(candy); // сохраняем все конфеты в списке, чтобы потом было удобнее работать
-                    CandyForSet candyForSet = new CandyForSet(){Amount = 1, Candy = candy};
-                    CandySetList.Add(candyForSet);
-                }
-                else
-                {
-                    
-                    double minCandyWeight = 1000;
-                    foreach (var c in candyList)
-                    {
-                        minCandyWeight = ((c as Candy).Weight < minCandyWeight && (c as Candy).Weight > 0)
-                            ? (c as Candy).Weight
-                            : minCandyWeight;
-                    }
-                    Console.WriteLine(minCandyWeight);
-                    Console.WriteLine(candyList.ToArray().Min(x => (x as Candy).Weight));
-                    Console.WriteLine(candyList.Cast<object>().Aggregate<object, double>(1000, (current, c) => ((c as Candy).Weight < current && (c as Candy).Weight > 0) ? (c as Candy).Weight : current));
-                    //double minCandyWeight = candyList.Cast<object>().Aggregate<object, double>(1000, (current, c) => ((c as Candy).Weight < current && (c as Candy).Weight > 0) ? (c as Candy).Weight : current);
-
-                    int candyIndex = r.Next(CandyNames.Count() - 1);
-                    Candy candy = (Candy)candyList[candyIndex]; //Candy.LoadFromFile(CandyNames[candyIndex]);
-                    //max weight 1000
-                    int lostWight = 1000;
-                    int candyMaxAmount = lostWight / (int)Math.Round(candy.Weight);
-                     
-                    break;
-                }
-                // в XML не сохраняет
-                Serializer.SaveListToBinnary(Path.Combine(AppPath, CandySetData[0], Path.ChangeExtension(string.Format("{0}{1:D3}", CandySetData[0], i), CandySetData[1])), CandySetList);
-            }
-            List<CandySet> CandySet = new List<CandySet>();
-
-            CandySet = FillCandySet();
-
-           
-
-
             XmasGift XmasGift = new XmasGift();
             //XmasGift.Add(new CandySet());
         }
 
-        static public List<CandySet> FillCandySet()
+        public static ArrayList GetCandyList()
         {
-            #region create CandySet
-            //CandySetBuilder candySetBuilder = new CandySetBuilder();
-            //CandyForSet candyForSet = Serializer.LoadFromXml<CandyForSet>("CandySet1.xml");
-            //candySetBuilder.CandySet.Add(candyForSet);
-            #endregion
+            var result = new ArrayList();
+            for (int i = 0; i < CandyNames.Count(); i++)
+            {
+                Candy candy = Candy.LoadFromFile(CandyNames[i]);
+                result.Add(candy); // сохраняем все конфеты в списке, чтобы потом было удобнее работать
+            }
+            return result;
+        }
 
-            List<CandySet> resultSet = new List<CandySet>();
-            //resultSet.Add();
+        public static ArrayList FillCandySet(bool showLog = false)
+        {
+            ArrayList resultSet = new ArrayList();
+
+            for (int i = 0; i < CandySetAmount; i++)
+            {
+                try
+                {
+                    List<CandyForSet> candySetList =
+                        Serializer.LoadFromBinnary<List<CandyForSet>>(Path.Combine(AppPath, CandySetData[0],
+                            Path.ChangeExtension(string.Format("{0}{1:D3}", CandySetData[0], i), CandySetData[1])));
+                    resultSet.Add(candySetList);
+                    if (showLog)
+                    {
+                        Console.WriteLine("{0}{1:D3} : состоит:", CandySetData[0], i);
+                        foreach (var c in candySetList)
+                        {
+                            Console.WriteLine("Конфета: {0}  количество:{1}",(c as CandyForSet).Candy.CandyName);
+                        }
+                    }
+                }
+                catch (Exception e)
+                {
+                    Console.WriteLine("Не удалось загрузить: {0}{1:D3}", CandySetData[0], i);
+                    Console.WriteLine("Ошибка: {0}", e.Message);
+                }
+            }
+
             return resultSet;
         }
 
-        static public List<CandySet> FillCandySetByCandy()
+        public static List<CandySet> FillCandySetByCandy()
         {
             return null;
         }
 
-        
+        public static void CreateCandy(bool overrideCandy = false)
+        {  // Создаем конфеты
+            foreach (var c in CandyNames)
+            {
+                if ((overrideCandy) || (!File.Exists(Path.Combine(AppPath, CandyData[0], Path.ChangeExtension(c, CandyData[1])))))
+                    Candy.SaveToFile(c);  // создаем конфеты, если их нет (по названию файла)
+            }            
+        }
+
+        public static void CreateCandySets(bool overrideCandySet = false) // создаем наборы конфет
+        {
+            // создаем CandySetAmount(200) наборов конфет.
+            // т.е. в наборе конфета1-количество, ..., конфетаN-количество
+            // считаем, что кол-во конфет в наборе не должно превышать MaxCandyAmountInSet(20) и вес 100г.
+            Random r = new Random();
+            ArrayList candyList = GetCandyList();
+            for (int i = 0; i < CandySetAmount; i++)
+            {
+                // делаем первых CandyName.Count наборов c 1 конфетой, чтобы потом можно было докладывать конфетами до определенного веса
+                CandySet CandySet = new CandySet();
+
+                if (i < CandyNames.Count())
+                {
+                    CandyForSet candyForSet = new CandyForSet() { Amount = 1, Candy = (Candy)candyList[i] };
+                    CandySet.Add(candyForSet);
+                }
+                else
+                {
+                    // находим минимальный вес конфеты
+                    //double minCandyWeight = 1000;
+                    //foreach (var c in candyList)
+                    //{
+                    //    minCandyWeight = ((c as Candy).Weight < minCandyWeight && (c as Candy).Weight > 0) ? (c as Candy).Weight : minCandyWeight;
+                    //}
+                    //Console.WriteLine(minCandyWeight);
+                    //Console.WriteLine(candyList.ToArray().Min(x => (x as Candy).Weight));
+                    //Console.WriteLine(candyList.Cast<object>().Aggregate<object, double>(1000, (current, c) => ((c as Candy).Weight < current && (c as Candy).Weight > 0) ? (c as Candy).Weight : current));
+                    //double minCandyWeight = candyList.Cast<object>().Aggregate<object, double>(1000, (current, c) => ((c as Candy).Weight < current && (c as Candy).Weight > 0) ? (c as Candy).Weight : current);
+                    double minCandyWeight = candyList.ToArray().Min(x => (x as Candy).Weight);
+
+                    //max weight 100 - набор в MaxCandySetWeight (100)г
+                    int restWeight = MaxCandySetWeight;
+                    Candy candy;
+                    do
+                    {
+                        do
+                        {
+                            int candyIndex = r.Next(CandyNames.Count() - 1);
+                            candy = (Candy)candyList[candyIndex]; //Candy.LoadFromFile(CandyNames[candyIndex]);
+                        } while ((candy.Weight > restWeight) || CandySet.Any(n => n.Candy.CandyName == candy.CandyName)); // конфеты в наборе не должны повторяться
+
+                        int candyMaxAmount = (restWeight / (int)Math.Round(candy.Weight) > MaxCandyAmountInSet) ? MaxCandyAmountInSet : restWeight / (int)Math.Round(candy.Weight); // не больше MaxCandyAmountInSet (20) одинаковых
+                        int candyAmount = r.Next(1, candyMaxAmount);
+                        CandyForSet candyForSet = new CandyForSet() { Amount = candyAmount, Candy = candy };
+                        CandySet.Add(candyForSet);
+                        restWeight -= candyAmount * (int)candy.Weight;
+                    } while (restWeight > minCandyWeight);
+                }
+                // в XML не сохраняет
+                CandySet.CandySetName = string.Format("{0}{1:D3}", CandySetData[0], i);
+                CandySet.SaveToFile();
+                //Serializer.SaveListToBinnary(Path.Combine(AppPath, CandySetData[0], Path.ChangeExtension(string.Format("{0}{1:D3}", CandySetData[0], i), CandySetData[1])), CandySet);
+            }  
+        }
     }
 }

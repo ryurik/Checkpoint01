@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfCandyForSet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CandyForSet>
+    <Candy>
+      <CandyName>Сливовые листья</CandyName>
+      <Sugar>29.281335384250305</Sugar>
+      <FoodValue>650.57956690461344</FoodValue>
+      <Weight>15</Weight>
+      <Flour>0</Flour>
+      <CandyType>Multilayer</CandyType>
+      <ExpirationDate>2018-04-01T00:00:00</ExpirationDate>
+    </Candy>
+    <Amount>4</Amount>
+  </CandyForSet>
+  <CandyForSet>
+    <Candy>
+      <CandyName>Садко</CandyName>
+      <Sugar>47.144077367682044</Sugar>
+      <FoodValue>430.37093963025649</FoodValue>
+      <Weight>14</Weight>
+      <Flour>0</Flour>
+      <CandyType>OfFruitPreservedInAlcohol</CandyType>
+      <ExpirationDate>2018-02-01T00:00:00</ExpirationDate>
+    </Candy>
+    <Amount>1</Amount>
+  </CandyForSet>
+  <CandyForSet>
+    <Candy>
+      <CandyName>Цитрусовые</CandyName>
+      <Sugar>29.281335384250305</Sugar>
+      <FoodValue>650.57956690461344</FoodValue>
+      <Weight>15</Weight>
+      <Flour>0</Flour>
+      <CandyType>Multilayer</CandyType>
+      <ExpirationDate>2018-04-01T00:00:00</ExpirationDate>
+    </Candy>
+    <Amount>1</Amount>
+  </CandyForSet>
+  <CandyForSet>
+    <Candy>
+      <CandyName>Красная шапочка</CandyName>
+      <Sugar>5.5604274876231461</Sugar>
+      <FoodValue>221.50188135984442</FoodValue>
+      <Weight>11</Weight>
+      <Flour>0</Flour>
+      <CandyType>Multilayer</CandyType>
+      <ExpirationDate>2017-01-01T00:00:00</ExpirationDate>
+    </Candy>
+    <Amount>1</Amount>
+  </CandyForSet>
+</ArrayOfCandyForSet>
