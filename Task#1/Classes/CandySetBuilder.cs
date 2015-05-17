@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
+using System.Net.Mime;
 using System.Text;
 using System.Threading.Tasks;
 using Checkpoint01.Interfaces;
@@ -12,25 +14,44 @@ namespace Checkpoint01.Classes
         public string CandySetName { get; set; }
         public ICollection<ISweets> CandySet {get; set;}
 
-        private CandySet candySet = new CandySet();
+        private CandySet _candySet = new CandySet();
 
-        public CandySet Construct()
+        public CandySetBuilder()
         {
-            ConstructCandySet();
-            return candySet;
+            CandySet = new List<ISweets>();  
         }
 
-        protected void ConstructCandySet()
+        public CandySet Construct(string fileName = "CandySet.xml")
         {
-            candySet.CandySetName = this.CandySetName;
+            ConstructCandySet(fileName);
+            return _candySet;
         }
 
-        protected void FillCandySet()
+        protected void ConstructCandySet(string fileName = "CandySet.xml")
         {
-            candySet.Clear();
-            foreach (CandyForSet c in CandySet)
+
+            _candySet.CandySetName = this.CandySetName;
+            if (fileName != "")
             {
-                candySet.Add(c);   
+                LoadFormXml(fileName);
+            }
+            else
+            {
+                FillCandySet();
+            }
+        }
+
+        private void LoadFormXml(string fileName = "CandySet.xml")
+        {
+            _candySet = Serializer.LoadFromXml<CandySet>(fileName);
+        }
+
+        protected void FillCandySet(string fileName = "CandySet.bin")
+        {
+            _candySet.Clear();
+            foreach (var c in CandySet)
+            {
+                _candySet.Add((CandyForSet)c);   
             }
         }
 

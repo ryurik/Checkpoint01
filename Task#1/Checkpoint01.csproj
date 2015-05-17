@@ -45,6 +45,7 @@
     <Compile Include="Classes\CandyComparers.cs" />
     <Compile Include="Classes\CandySet.cs" />
     <Compile Include="Classes\CandySetBuilder.cs" />
+    <Compile Include="Classes\Serializer.cs" />
     <Compile Include="Classes\XmasGift.cs" />
     <Compile Include="Interfaces\ICandy.cs" />
     <Compile Include="Types\CandyTypes.cs" />

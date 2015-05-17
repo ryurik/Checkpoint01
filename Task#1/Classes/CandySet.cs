@@ -7,6 +7,7 @@ using Checkpoint01.Interfaces;
 
 namespace Checkpoint01.Classes
 {
+    [Serializable]
     public class CandySet : ICollection<CandyForSet> // набор конфет
     {
         private readonly ICollection<CandyForSet> _candy = new List<CandyForSet>();

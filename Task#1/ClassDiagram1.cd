@@ -3,13 +3,13 @@
   <Class Name="Checkpoint01.Classes.Candy" Collapsed="true" BaseTypeListCollapsed="true">
     <Position X="7" Y="7" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAIAAAAAgAAAAAAAAQCAAAAAQAAAAAAABAAA=</HashCode>
+      <HashCode>AAAAgAAgAIAAAAAgAAAAAAAAQCAAAAAQAAAAAAABAAA=</HashCode>
       <FileName>Classes\Candy.cs</FileName>
     </TypeIdentifier>
     <Lollipop Position="0.2" Collapsed="true" />
   </Class>
   <Class Name="Checkpoint01.Classes.XmasGift" Collapsed="true" BaseTypeListCollapsed="true">
-    <Position X="14" Y="2" Width="1.5" />
+    <Position X="17.5" Y="3" Width="1.5" />
     <TypeIdentifier>
       <HashCode>ACIAiAAAAAAAADAQAUA0BAQAABAAAAAAAAAAAABQIAA=</HashCode>
       <FileName>Classes\XmasGift.cs</FileName>
@@ -17,9 +17,9 @@
     <Lollipop Position="0.2" Collapsed="true" />
   </Class>
   <Class Name="Checkpoint01.Classes.XmasGiftBuilder" Collapsed="true">
-    <Position X="15.75" Y="2" Width="1.5" />
+    <Position X="19.25" Y="3" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAA=</HashCode>
       <FileName>Classes\XmasGiftBuilder.cs</FileName>
     </TypeIdentifier>
   </Class>
@@ -32,7 +32,7 @@
     <Lollipop Position="0.2" Collapsed="true" />
   </Class>
   <Class Name="Checkpoint01.Classes.CandySet" Collapsed="true" BaseTypeListCollapsed="true">
-    <Position X="15.75" Y="1" Width="1.5" />
+    <Position X="19.25" Y="1" Width="1.5" />
     <TypeIdentifier>
       <HashCode>ACIAAAAAAIAAABAwAABABAQAQCAAAAAAAAAABABRIAA=</HashCode>
       <FileName>Classes\CandySet.cs</FileName>
@@ -42,8 +42,71 @@
   <Class Name="Checkpoint01.Classes.CandyForSet" Collapsed="true">
     <Position X="7" Y="8.25" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAQAAAAAACAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Classes\Candy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Checkpoint01.Classes.CandyComparerBySugar" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="15.75" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAA=</HashCode>
+      <FileName>Classes\CandyComparers.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Checkpoint01.Classes.CandyComparerByWeight" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="17.5" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAA=</HashCode>
+      <FileName>Classes\CandyComparers.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Checkpoint01.Classes.CandySetComparerBySugar" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="14" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAA=</HashCode>
+      <FileName>Classes\CandyComparers.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Checkpoint01.Classes.CandySetComparerByExpirationDate" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="15.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAA=</HashCode>
+      <FileName>Classes\CandyComparers.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Checkpoint01.Classes.CandySetComparerByWeight" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="15.75" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAA=</HashCode>
+      <FileName>Classes\CandyComparers.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Checkpoint01.Classes.CandySetComparerByFlour" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="17.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAA=</HashCode>
+      <FileName>Classes\CandyComparers.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Checkpoint01.Classes.CandySetComparerByFoodValue" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="19.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAA=</HashCode>
+      <FileName>Classes\CandyComparers.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Checkpoint01.Classes.CandySetBuilder" Collapsed="true">
+    <Position X="14" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAgIAAAAAAAAAAAAAAAAAAAAAABQAQAAA=</HashCode>
+      <FileName>Classes\CandySetBuilder.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Interface Name="Checkpoint01.Interfaces.ISweets">
@@ -82,17 +145,24 @@
     </TypeIdentifier>
   </Interface>
   <Enum Name="Checkpoint01.Types.FruitAndBerriesTypes" Collapsed="true">
-    <Position X="15.75" Y="3.25" Width="1.5" />
+    <Position X="15.75" Y="4.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAIACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Types\FruitAndBerriesTypes.cs</FileName>
     </TypeIdentifier>
   </Enum>
   <Enum Name="Checkpoint01.Types.CandyTypes" Collapsed="true">
-    <Position X="14" Y="3.25" Width="1.5" />
+    <Position X="14" Y="4.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>QAAAAAAAAAAAAgAACAACAAAAAAAAAAAAAAAAAAABAQA=</HashCode>
       <FileName>Types\CandyTypes.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Checkpoint01.Classes.XmasGiftSortType" Collapsed="true">
+    <Position X="17.5" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQQAAAAAAAAAAAAAAgAAAAAAEAAAAAgAAAAAAAAgA=</HashCode>
+      <FileName>Classes\XmasGift.cs</FileName>
     </TypeIdentifier>
   </Enum>
   <Font Name="Segoe UI" Size="9" />
