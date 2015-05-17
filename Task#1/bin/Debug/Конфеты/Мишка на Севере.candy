@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Candy xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CandyName>Мишка на Севере</CandyName>
+  <Sugar>55.676819782553622</Sugar>
+  <FoodValue>861.95658513435933</FoodValue>
+  <Weight>9</Weight>
+  <Flour>63.747876213746089</Flour>
+  <CandyType>Interbeddedwaffles</CandyType>
+  <ExpirationDate>2016-11-01T00:00:00</ExpirationDate>
+</Candy>

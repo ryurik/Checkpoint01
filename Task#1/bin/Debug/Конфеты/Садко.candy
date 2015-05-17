@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Candy xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CandyName>Садко</CandyName>
+  <Sugar>47.144077367682044</Sugar>
+  <FoodValue>430.37093963025649</FoodValue>
+  <Weight>14</Weight>
+  <Flour>0</Flour>
+  <CandyType>OfFruitPreservedInAlcohol</CandyType>
+  <ExpirationDate>2018-02-01T00:00:00</ExpirationDate>
+</Candy>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Candy xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CandyName>Красная</CandyName>
+  <Sugar>1.5367683030370476</Sugar>
+  <FoodValue>22.282147324775412</FoodValue>
+  <Weight>12</Weight>
+  <Flour>0</Flour>
+  <CandyType>OfFruitPreservedInAlcohol</CandyType>
+  <ExpirationDate>2017-02-01T00:00:00</ExpirationDate>
+</Candy>

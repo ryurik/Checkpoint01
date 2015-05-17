@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Candy xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CandyName>Грильяж</CandyName>
+  <Sugar>21.569848024086024</Sugar>
+  <FoodValue>911.2545013945803</FoodValue>
+  <Weight>18</Weight>
+  <Flour>0</Flour>
+  <CandyType>NutsAndDriedFruits</CandyType>
+  <ExpirationDate>2015-03-01T00:00:00</ExpirationDate>
+</Candy>

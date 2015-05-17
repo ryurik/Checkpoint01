@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Candy xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CandyName>Белочка</CandyName>
+  <Sugar>34.049329643160725</Sugar>
+  <FoodValue>848.50630622753226</FoodValue>
+  <Weight>18</Weight>
+  <Flour>0</Flour>
+  <CandyType>SingleLayer</CandyType>
+  <ExpirationDate>2015-03-01T00:00:00</ExpirationDate>
+</Candy>

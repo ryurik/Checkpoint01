@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Candy xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CandyName>Маска</CandyName>
+  <Sugar>2.9327060109622338</Sugar>
+  <FoodValue>505.84108126621743</FoodValue>
+  <Weight>16</Weight>
+  <Flour>0</Flour>
+  <CandyType>Multilayer</CandyType>
+  <ExpirationDate>2019-01-01T00:00:00</ExpirationDate>
+</Candy>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Candy xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CandyName>Красная шапочка</CandyName>
+  <Sugar>5.5604274876231461</Sugar>
+  <FoodValue>221.50188135984442</FoodValue>
+  <Weight>11</Weight>
+  <Flour>0</Flour>
+  <CandyType>Multilayer</CandyType>
+  <ExpirationDate>2017-01-01T00:00:00</ExpirationDate>
+</Candy>

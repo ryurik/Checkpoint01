@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Candy xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CandyName>Золотая нива</CandyName>
+  <Sugar>34.772360667014659</Sugar>
+  <FoodValue>820.43173248899711</FoodValue>
+  <Weight>5</Weight>
+  <Flour>0</Flour>
+  <CandyType>Interbeddedwaffles</CandyType>
+  <ExpirationDate>2019-06-01T00:00:00</ExpirationDate>
+</Candy>

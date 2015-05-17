@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Candy xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CandyName>Гулливер</CandyName>
+  <Sugar>43.39693297790221</Sugar>
+  <FoodValue>16.605143908693059</FoodValue>
+  <Weight>14</Weight>
+  <Flour>0</Flour>
+  <CandyType>Interbeddedwaffles</CandyType>
+  <ExpirationDate>2016-11-01T00:00:00</ExpirationDate>
+</Candy>

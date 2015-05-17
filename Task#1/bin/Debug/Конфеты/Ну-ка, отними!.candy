@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Candy xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CandyName>Ну-ка, отними!</CandyName>
+  <Sugar>59.602254936286371</Sugar>
+  <FoodValue>340.84116543682347</FoodValue>
+  <Weight>10</Weight>
+  <Flour>0</Flour>
+  <CandyType>SingleLayer</CandyType>
+  <ExpirationDate>2019-04-01T00:00:00</ExpirationDate>
+</Candy>

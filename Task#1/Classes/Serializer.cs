@@ -15,6 +15,10 @@ namespace Checkpoint01.Classes
 
         public static void SaveToBinnary<T>(String fileName, T serializableObject)
         {
+            if (!Directory.Exists(Path.GetDirectoryName(fileName)))
+            {
+                Directory.CreateDirectory(Path.GetDirectoryName(fileName));
+            }
             using (FileStream fs = File.Create(fileName))
             {
                 BinaryFormatter formatter = new BinaryFormatter();
@@ -36,6 +40,10 @@ namespace Checkpoint01.Classes
         public static void SaveToXml<T>(String fileName, T serializableObject)
         {
             XmlSerializer serializer = new XmlSerializer(typeof(T));
+            if(!Directory.Exists(Path.GetDirectoryName(fileName)))
+            {
+                Directory.CreateDirectory(Path.GetDirectoryName(fileName));
+            }
             using (TextWriter textWriter = new StreamWriter(fileName))
             {
                 serializer.Serialize(textWriter, serializableObject);
@@ -56,6 +64,10 @@ namespace Checkpoint01.Classes
 
         public static void SaveListToBinnary<T>(String fileName, List<T> serializableObjects)
         {
+            if (!Directory.Exists(Path.GetDirectoryName(fileName)))
+            {
+                Directory.CreateDirectory(Path.GetDirectoryName(fileName));
+            }
             using (FileStream fs = File.Create(fileName))
             {
                 BinaryFormatter formatter = new BinaryFormatter();
@@ -77,6 +89,10 @@ namespace Checkpoint01.Classes
         public static void SaveListToXml<T>(String fileName, List<T> serializableObjects)
         {
             XmlSerializer serializer = new XmlSerializer(typeof(T));
+            if (!Directory.Exists(Path.GetDirectoryName(fileName)))
+            {
+                Directory.CreateDirectory(Path.GetDirectoryName(fileName));
+            }
             using (TextWriter textWriter = new StreamWriter(fileName))
             {
                 serializer.Serialize(textWriter, serializableObjects);

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Candy xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CandyName>Мишка косолапый</CandyName>
+  <Sugar>41.650131783285239</Sugar>
+  <FoodValue>60.474286349711143</FoodValue>
+  <Weight>11</Weight>
+  <Flour>0</Flour>
+  <CandyType>OfFruitPreservedInAlcohol</CandyType>
+  <ExpirationDate>2018-05-01T00:00:00</ExpirationDate>
+</Candy>
