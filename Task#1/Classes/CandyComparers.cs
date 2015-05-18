@@ -93,7 +93,7 @@ namespace Checkpoint01.Classes
         public int Compare(ISweets x, ISweets y)
         {
             if (x == null || y == null) return (y == null && x == null) ? 0 : (x != null) ? 1 : -1;
-            return (Math.Abs(x.FoodValue - y.FoodValue) < Program.Precision) ? 0 : (x.FoodValue > y.FoodValue) ? 1 : -1;
+            return (Math.Abs((x as CandySet).FoodValue - (y as CandySet).FoodValue) < Program.Precision) ? 0 : ((x as CandySet).FoodValue > (y as CandySet).FoodValue) ? 1 : -1;
         }
     }
     #endregion
