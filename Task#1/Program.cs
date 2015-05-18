@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Net.Mime;
+using System.Net.Sockets;
 using System.Text;
 using System.Threading.Tasks;
 using Checkpoint01.Classes;
@@ -64,20 +65,60 @@ namespace Checkpoint01
 
             XmasGift XmasGift = new XmasGift();
             Random r = new Random();
+            // все наборы с хорошим сроком годности и в которых больше 1 конфеты
             var validCandySets = (from x in candySetList.ToArray()
-                where (x as CandySet).ExpirationDate > DateTime.Now
+                where ((x as CandySet).ExpirationDate > DateTime.Now && (x as CandySet).Count() > 1)
                 select (x as CandySet));
-
-            while (XmasGift.Weigh < XmasGiftWeight)
+            var candySets = validCandySets as CandySet[] ?? validCandySets.ToArray();
+            int minCandySetWeight = candySets.Min(x => (int)x.Weight);
+            int maxCandySetWeight = candySets.Max(x => (int)x.Weight);
+            // наполняем подарок, пока не оставим место для одного набора
+            while (XmasGiftWeight - XmasGift.Weigh > maxCandySetWeight)
             {
-                CandySet CandySet;
-                do
-                {
-                    CandySet = (candySetList[r.Next(CandyNames.Count(), CandySetAmount - 1)] as CandySet);
-                } while (CandySet.ExpirationDate < DateTime.Now); //отсекаем просрАченные 
-                XmasGift.Add(CandySet);
-                
+                XmasGift.Add(candySets.ToArray()[r.Next(candySets.Count())]);
             }
+            // нужно добавить один набор, тогда у нас будет подарок приближен к Макс весу подарка
+            XmasGift.Add(candySets.ToArray()[r.Next(candySets.Count())]);
+            // если осталось место для еще одного набора, то дополним его
+            if (XmasGiftWeight - XmasGift.Weigh > minCandySetWeight)
+            {
+                int difference = XmasGiftWeight - XmasGift.Weigh;
+                int minimalValue = difference;
+                CandySet cs = null;
+                foreach (var c in candySets)
+                {
+                   if  ((difference - c.Weight > 0) && (difference - c.Weight < minimalValue))
+                   {
+                       cs = c;
+                       minimalValue = difference - (int)c.Weight;
+                   }
+                }
+                // если нашли наиболее близкий набор для наполнения
+                if (cs != null)
+                {
+                    XmasGift.Add(cs);
+                }
+            }
+            // нужно подарок добить конфетами до XmasGiftWeight (1000)
+            Console.WriteLine("\nНабор без сортировки");
+
+            foreach (var cs in XmasGift)
+            {
+                Console.WriteLine("Набор: {0} sugar={1} вec={2}", (cs as CandySet).CandySetName, (cs as CandySet).Sugar, (cs as CandySet).Weight);
+            }
+            XmasGift.SortBySugar();
+            Console.WriteLine("\nНаборы после сортировки сахару");
+            foreach (var cs in XmasGift)
+            {
+                Console.WriteLine("Набор: {0} sugar={1} вec={2}", (cs as CandySet).CandySetName, (cs as CandySet).Sugar, (cs as CandySet).Weight);
+            }
+
+            Console.WriteLine("Самые сладкие конфеты:");
+            foreach (var c in candyList.ToArray().Where(x => (x as Candy).Sugar == candyList.ToArray().Max(y=>(y as Candy).Sugar)))
+            {
+                Console.WriteLine("Конфета: {0} sugar={1} вec={2}", (c as Candy).CandyName, (c as Candy).Sugar, (c as Candy).Weight);
+            }
+
             Console.ReadKey();
         }
 
