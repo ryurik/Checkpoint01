@@ -51,6 +51,15 @@ namespace Checkpoint01.Classes
             return (candy != null) ? candy.Candy.GetHashCode() : 0;
         }
     }
+
+    class CandyForSetComparerByCandyName : IComparer<CandyForSet>
+    {
+        public int Compare(CandyForSet x, CandyForSet y)
+        {
+            if (x == null || y == null) return (y == null && x == null) ? 0 : (x != null) ? 1 : -1;
+            return x.Candy.CandyName.CompareTo(y.Candy.CandyName);
+        }
+    }
     #endregion
 
     #region CandySetComparer

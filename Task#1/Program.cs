@@ -39,9 +39,12 @@ namespace Checkpoint01
         static void Main(string[] args)
         {
             AppPath = Path.GetDirectoryName(Environment.GetCommandLineArgs()[0]);
-
-            // CreateCandySets(true);
-
+            /*
+            // создаем конфеты и наборы
+             CreateCandy(false);
+             CreateCandySets(true);
+             return;
+            // */
             ArrayList candyList = GetCandyList(); // получаем список конфет
             ArrayList candySetList = FillCandySet(true); // набор наборов конфет :)
 
@@ -78,7 +81,7 @@ namespace Checkpoint01
                 XmasGift.Add(candySets.ToArray()[r.Next(candySets.Count())]);
             }
             // нужно добавить один набор, тогда у нас будет подарок приближен к Макс весу подарка
-            XmasGift.Add(candySets.ToArray()[r.Next(candySets.Count())]);
+            //XmasGift.Add(candySets.ToArray()[r.Next(candySets.Count())]);
             // если осталось место для еще одного набора, то дополним его
             if (XmasGiftWeight - XmasGift.Weigh > minCandySetWeight)
             {
@@ -118,6 +121,30 @@ namespace Checkpoint01
             {
                 Console.WriteLine("Конфета: {0} sugar={1} вec={2}", (c as Candy).CandyName, (c as Candy).Sugar, (c as Candy).Weight);
             }
+
+            // вывести все конфеты в наборе
+            List<CandyForSet> candyForSetList = XmasGift.Cast<CandySet>().SelectMany(c => c).ToList();
+            List<CandyForSet> candyForSetSummuryList = new List<CandyForSet>();
+            foreach (var cs in candyForSetList)
+            {
+                if (candyForSetSummuryList.Where(x => x.Candy.CandyName == cs.Candy.CandyName).Any())
+                {
+                    // если такая конфета есть - складываем с существующей
+                    candyForSetSummuryList.Single(x => x.Candy.CandyName == cs.Candy.CandyName).Amount += cs.Amount;
+                }
+                else
+                { 
+                    // добавляем в набор
+                    candyForSetSummuryList.Add(cs);    
+                }
+            }
+            candyForSetSummuryList.Sort(new CandyForSetComparerByCandyName()); // сортируем по имени конфет
+            Console.WriteLine("\nВ подарке имеются следующие конфеты:");
+            foreach (var c in candyForSetSummuryList)
+            {
+                Console.WriteLine("Конфета: {0},  кол-во: {1}", c.Candy.CandyName, c.Amount);   
+            }
+            Console.WriteLine("\nПодарок весит:{0}", XmasGift.Weigh);
 
             Console.ReadKey();
         }
